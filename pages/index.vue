@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <h1 class="red">Hello {{ name }}!</h1>
       <app-logo/>
       <h1 class="title">
         {{ name }}
@@ -28,6 +29,12 @@ import AppLogo from "~/components/AppLogo.vue"
 export default {
   components: {
     AppLogo
+  },
+  data() {
+    return {
+      name: "world",
+      description: "Johnathan's site"
+    }
   }
 }
 </script>
@@ -43,7 +50,7 @@ export default {
 
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
