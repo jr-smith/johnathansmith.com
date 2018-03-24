@@ -15,12 +15,14 @@
     "test": "ava --serial --verbose"
   },
   "dependencies": {
-    "nuxt": "^1.4.0"
+    "buefy": "^0.6.4",
+    "nuxt": "^1.4.0",
+    "nuxt-buefy": "^0.0.4"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.42",
     "ava": "^1.0.0-beta.3",
     "babel-eslint": "^8.2.2",
-    "babel-preset-env": "^1.6.1",
     "browser-env": "^3.2.5",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
@@ -34,7 +36,7 @@
   },
   "babel": {
     "presets": [
-      "babel-preset-env"
+      "@babel/preset-env"
     ]
   },
   "ava": {
