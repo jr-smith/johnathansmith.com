@@ -1,2 +1,2 @@
-import browserEnv from 'browser-env';
-browserEnv();
+import browserEnv from "browser-env"
+browserEnv()
