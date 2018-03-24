@@ -1,4 +1,8 @@
 module.exports = {
+  plugins: [
+    // ssr: false to only include it on client-side
+    { src: "~/plugins/buefy.js", ssr: false }
+  ],
   /*
   ** Headers of the page
   */
@@ -23,16 +27,16 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["axios"],
-    extend(config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: "pre",
-          test: /\.(js|vue)$/,
-          loader: "eslint-loader",
-          exclude: /(node_modules)/
-        })
-      }
-    }
+    vendor: ["axios"]
+    // extend(config, { isDev, isClient }) {
+    //   if (isDev && isClient) {
+    //     config.module.rules.push({
+    //       enforce: "pre",
+    //       test: /\.(js|vue)$/,
+    //       loader: "eslint-loader",
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
   }
 }
