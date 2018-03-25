@@ -36,16 +36,20 @@ body {
     color: #363636;
   }
 }
-.list-arrows {
-    padding-left: 2rem;
-    li {
-        margin-bottom: 1rem;
-        &:before {
-            display: inline-block;
-            content: "\2192 \0020";
-            margin-right: 1rem;
-        }
-    }
+
+
+ul.list-arrows {
+  padding-left: 2rem;
+}
+
+.list-arrows li {
+  margin-bottom: 1rem;
+}
+
+.list-arrows li:before {
+  display: inline-block;
+  content: "\2192 \0020";
+  margin-right: 1rem;
 }
 
 
