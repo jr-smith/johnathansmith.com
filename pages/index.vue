@@ -27,7 +27,7 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form  @submit.prevent="onSubmit" name="contact" netlify-honeypot="bot-field" method="POST"  netlify>
+      <form  @submit.prevent="onSubmit" netlify-honeypot="bot-field" method="POST" netlify>
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field"></label>
         </p>
