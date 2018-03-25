@@ -1,6 +1,18 @@
 <template>
-  <section class="container">
-    <h2>Blog</h2>
+    <div class="hero-body">
+      <div class="container">
+        <div id="intro" class="has-text-centered intro">
+          <img src="/johnathan.png" class="profile-photo" >
+          <h1 class="title is-size-1">
+            Johnathan R. Smith
+          </h1>
+          <h2 class="subtitle is-size-2">
+            Full Stack Web Developer in Raleigh, NC
+          </h2>
+          <h3 class="is-size-3">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
+        </div>
+      </div>
+    <!--
     <ul>
       <li v-for="post in posts" :key="post.date">
         <nuxt-link :to="post._path">
@@ -8,15 +20,24 @@
         </nuxt-link>
       </li>
     </ul>
-  </section>
+    -->
+    </div>
 </template>
 
 <script>
-import AppLogo from "~/components/AppLogo.vue"
+
 
 export default {
-  components: {
-    AppLogo
+  components: {},
+  head: {
+    title: "Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "this is the meta description too"
+      }
+    ]
   },
   data() {
     // Using webpacks context to gather all files from a folder
@@ -32,34 +53,26 @@ export default {
 }
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style lang="scss">
+.white {
+  background-color: #fff;
 }
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+.intro {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 3rem;
+  @media (min-width: 769px) {
+    max-width: 80%;
+  }
+  * {
+    color: #363636;
+  }
+}
+.profile-photo {
   display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
 }
 </style>
