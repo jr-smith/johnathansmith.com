@@ -14,6 +14,12 @@ export default {
 </script>
 
 <style style="scss">
+.centered {
+  margin: 0 auto;
+}
+html body .title {
+  color: #37A5E5;
+}
 html,
 body {
   background-color: #38474f;
@@ -22,7 +28,7 @@ body {
   font-size: calc(0.95rem + 0.1vw);
 }
 .white {
-  background-color: #fff;
+  color: #fff;
 }
 .intro {
   margin: 0 auto;
@@ -52,5 +58,8 @@ ul.list-arrows {
   margin-right: 1rem;
 }
 
+form {
+  max-width: 500px;
+}
 
 </style>
