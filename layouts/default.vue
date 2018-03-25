@@ -17,7 +17,11 @@ export default {
 html, body {
   background-color: #38474F
 }
+body {
+  font-size: calc(0.95rem + 0.1vw);
+}
 .text-center {
   text-align: center;
 }
+
 </style>

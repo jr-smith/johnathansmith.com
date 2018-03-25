@@ -4,13 +4,13 @@
     <div class="container">
       <div id="intro" class="text-center">
         <img src="/johnathan.png" class="profile-photo" />
-        <h1 class="title">
+        <h1 class="title is-size-1">
           Johnathan Smith
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle is-size-2">
           Web Developer in Raleigh, NC
         </h2>
-        <p>I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational and NoSQL Databases.</p>
+        <p class="is-size-3">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational and NoSQL Databases.</p>
       </div>
     </div>
   </div>
@@ -46,7 +46,9 @@ export default {
   background-color: #FFF;
   border-radius: 15px;
   padding: 3rem;
-  max-width: 80%;
+  @media (min-width: 769px) {
+    max-width: 80%;
+  }
   * {
     color: #363636;
   }
