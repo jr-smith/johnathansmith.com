@@ -6,6 +6,8 @@ module.exports = {
   router: {
     linkActiveClass: "active-link"
   },
+  // modules: ["nuxt-netlify-cms"],
+  // srcDir: "client",
   /*
   ** Headers of the page
   */
@@ -37,17 +39,17 @@ module.exports = {
   /*
   ** Build configuration
   */
-  build: {
-    vendor: ["axios"]
-    // extend(config, { isDev, isClient }) {
-    //   if (isDev && isClient) {
-    //     config.module.rules.push({
-    //       enforce: "pre",
-    //       test: /\.(js|vue)$/,
-    //       loader: "eslint-loader",
-    //       exclude: /(node_modules)/
-    //     })
-    //   }
-    // }
-  }
+  // build: {
+  //   // vendor: ["axios"]
+  //   // extend(config, { isDev, isClient }) {
+  //   //   if (isDev && isClient) {
+  //   //     config.module.rules.push({
+  //   //       enforce: "pre",
+  //   //       test: /\.(js|vue)$/,
+  //   //       loader: "eslint-loader",
+  //   //       exclude: /(node_modules)/
+  //   //     })
+  //   //   }
+  //   // }
+  // }
 }
