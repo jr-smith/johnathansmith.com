@@ -21,13 +21,16 @@ module.exports = {
   plugins: [
     'vue'
   ],
-  "rules": {
+  // add your custom rules here
+  rules: {
     "import/no-unresolved": 0,
     "import/no-unassigned-import": 0,
     "semi": ["error", "never"],
     "no-console": "off",
+    "space-before-function-paren": "off",
     // "indent": ["error", "tab"],
     "vue/max-attributes-per-line": "off",
+    "vue/space-before-function-paren": "off",
     "space-before-function-paren": [
       "error",
       {
@@ -36,6 +39,5 @@ module.exports = {
         "asyncArrow": "always"
       }
     ],
-    "prettier/prettier": ["error", { "semi": false }]
-  }
+    "prettier/prettier": ["error", { "semi": false }]}
 }

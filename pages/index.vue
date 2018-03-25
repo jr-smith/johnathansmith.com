@@ -1,62 +1,65 @@
 <template>
-<section class="hero is-dark is-medium">
-  <div class="hero-body">
-    <div class="container">
-      <div id="intro" class="text-center">
-        <img src="/johnathan.png" class="profile-photo" />
-        <h1 class="title is-size-1">
-          Johnathan Smith
-        </h1>
-        <h2 class="subtitle is-size-2">
-          Web Developer in Raleigh, NC
-        </h2>
-        <p class="is-size-3">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational and NoSQL Databases.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  <section class="container">
+    <h2>Blog</h2>
+    <ul>
+      <li v-for="post in posts" :key="post.date">
+        <nuxt-link :to="post._path">
+          {{ post.title }}
+        </nuxt-link>
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script>
+import AppLogo from "~/components/AppLogo.vue"
+
 export default {
-  head: {
-    title: "Johnathan Smith2",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: "this is the meta description too"
-      }
-    ]
+  components: {
+    AppLogo
   },
   data() {
-    return {
-      name: "world",
-      name2: "Johnathan's site23"
-    }
+    // Using webpacks context to gather all files from a folder
+    const context = require.context("~/content/blog/posts/", false, /\.json$/)
+
+    const posts = context.keys().map(key => ({
+      ...context(key),
+      _path: `/blog/${key.replace(".json", "").replace("./", "")}`
+    }))
+
+    return { posts }
   }
 }
 </script>
-<style lang="scss">
-.white {
-  background-color: #fff;
+
+<style>
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-#intro {
-  margin: 0 auto;
-  background-color: #FFF;
-  border-radius: 15px;
-  padding: 3rem;
-  @media (min-width: 769px) {
-    max-width: 80%;
-  }
-  * {
-    color: #363636;
-  }
-}
-.profile-photo {
+
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
-  max-width: 200px;
-  border-radius: 50%;
-  margin: 0 auto 1rem auto;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>
