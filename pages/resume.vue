@@ -155,35 +155,9 @@
 export default {}
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped >
 .title {
     margin-bottom: 5px !important;
 }
 
-.white {
-  background-color: #fff;
-}
-.intro {
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 3rem;
-  @media (min-width: 769px) {
-    max-width: 80%;
-  }
-  h1,h2,h3,h4,h5,p {
-    color: #363636;
-  }
-}
-.list-arrows {
-    padding-left: 2rem;
-    li {
-        margin-bottom: 1rem;
-        &:before {
-            display: inline-block;
-            content: "\2192 \0020";
-            margin-right: 1rem;
-        }
-    }
-}
 </style>

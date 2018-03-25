@@ -54,21 +54,7 @@ export default {
 </script>
 
 <style lang="scss">
-.white {
-  background-color: #fff;
-}
-.intro {
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 3rem;
-  @media (min-width: 769px) {
-    max-width: 80%;
-  }
-  * {
-    color: #363636;
-  }
-}
+
 .profile-photo {
   display: block;
   max-width: 200px;
