@@ -9,9 +9,7 @@ var dynamicRoutes = getDynamicPaths({
 })
 
 module.exports = {
-  modules: [
-    '@nuxtjs/axios',
-  ],
+  modules: ["@nuxtjs/axios"],
   axios: {
     // proxyHeaders: false
   },
@@ -19,6 +17,7 @@ module.exports = {
     // ssr: false to only include it on client-side
     { src: "~/plugins/buefy.js", ssr: false }
   ],
+
   head: {
     title: "Johnathan Smith",
     meta: [
@@ -28,10 +27,34 @@ module.exports = {
         hid: "description",
         name: "description",
         content: "this is the meta description"
-      }
+      },
+      { name: "msapplication-TileColor", content: "#da532c" },
+      { name: "theme-color", content: "#ffffff" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/favicons/apple-touch-icon.png"
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/favicons/favicon-32x32.png"
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/favicons/favicon-16x16.png"
+      },
+      { rel: "manifest", href: "/favicons/site.webmanifest" },
+      {
+        rel: "mask-icon",
+        href: "/favicons/safari-pinned-tab.svg",
+        color: "#5bbad5"
+      },
       {
         rel: "stylesheet",
         href:
