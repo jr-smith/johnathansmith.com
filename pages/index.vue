@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <div id="intro" class="has-text-centered intro">
-          <img src="/johnathan.png" class="profile-photo" >
+          <img src="/johnathan.png" class="profile-photo" alt="Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC" >
           <h1 class="title is-size-1">
             Johnathan R. Smith
           </h1>
@@ -21,7 +21,6 @@
 </nuxt-link>
 </li>
 </ul>
-netlify-honeypot="bot"
 -->
     </div>
     <section id="contact" class="section">
@@ -100,6 +99,10 @@ export default {
   },
   methods: {
     async onSubmit() {
+      console.log(this.form)
+      console.log(this.formname)
+      console.log(this.formAction)
+      console.log(window.location.href + this.action)
       try {
         let formdata = new FormData()
         formdata.append("name", this.form.name)
@@ -107,6 +110,7 @@ export default {
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
         formdata.append("bot-field", this.form.botField)
+        consol.log(formdata)
 
         const formSubmission = await this.$axios({
           url: window.location.href + this.action,
