@@ -17,7 +17,14 @@
             </div>
             <div class="column">
               <p>Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle.</p>
-              <p>He enjoys family time, pinball, hiking, learning new coding languages, and engineering awesome web applications.</p>
+              <p>He enjoys family time, pinball, hiking, and engineering awesome web applications.</p>
+              <p>Some coding things that currently pique his interest are:</p>
+              <ul class="list-arrows">
+                <li>GraphQL</li>
+                <li>Node</li>
+                <li>.NET Core</li>
+                <li>Native Script</li>
+              </ul>
             </div>
           </div>
         </div>

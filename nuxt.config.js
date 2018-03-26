@@ -9,7 +9,7 @@ var dynamicRoutes = getDynamicPaths({
 })
 
 module.exports = {
-  modules: ["@nuxtjs/axios"],
+  modules: ["@nuxtjs/axios", "@nuxtjs/component-cache"],
   axios: {
     // proxyHeaders: false
   },

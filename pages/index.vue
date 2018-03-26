@@ -10,7 +10,7 @@
           <h2 class="subtitle is-size-2 white">
             Full Stack Web Developer in Raleigh, NC
           </h2>
-          <h3 class="is-size-3 white">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
+          <h3 class="is-size-3 white">I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
         </div>
       </div>
       <!--
@@ -23,6 +23,23 @@
 </ul>
 -->
     </div>
+
+    <section id="clients" class="hero section is-info">
+      <div class="container content">
+        <h4 class="title is-size-3 has-text-centered">Some of my clients</h4>
+        <div class="columns has-text-centered">
+          <div class="column is-one-third">
+            <img src="/images/uploads/ncstate.png" alt="nc state" />
+          </div>
+          <div class="column is-one-third">
+            <img src="/images/uploads/popefoundation.png" alt="pope foundation" />
+          </div>
+          <div class="column is-one-third">
+            <img src="/images/uploads/raleighmold.png" alt="raleigh mold" />
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact" class="section">
 
       <div class="container">
@@ -116,9 +133,9 @@ export default {
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
         // formdata.append("bot-field", this.form.botField)
-        for(var pair of formdata.entries()) {
-   console.log(pair[0]+ ', '+ pair[1]); 
-}
+        for (var pair of formdata.entries()) {
+          console.log(pair[0] + ", " + pair[1])
+        }
 
         const formSubmission = await this.$axios({
           url: this.formUrl,
@@ -147,7 +164,6 @@ export default {
           message: "Thanks for the message. I'll be in touch shortly.",
           type: "is-success"
         })
-
       } catch (e) {
         this.$snackbar.open({
           duration: 5000,
@@ -177,6 +193,12 @@ export default {
   }
   .intro {
     background-color: transparent;
+  }
+}
+
+#clients {
+  img {
+    max-width: 245px;
   }
 }
 </style>

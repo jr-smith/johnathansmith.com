@@ -53,7 +53,8 @@ body {
 }
 
 ul.list-arrows {
-  padding-left: 2rem;
+  list-style: none;
+  margin-left: 2rem;
 }
 
 .list-arrows li {
