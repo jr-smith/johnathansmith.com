@@ -28,7 +28,7 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form :action="formAction" :name="formName"  method="POST" netlify-honeypot="bot-field" netlify >
+      <form @submit.prevent="onSubmit" :action="formAction" :name="formName"  method="POST" netlify-honeypot="bot-field" netlify >
         <input type="hidden" name="form-name" :value="formName" />
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input v-model="form.botField" name="bot-field"></label>
@@ -119,6 +119,7 @@ export default {
           message: "Thanks for the message. I'll be in touch shortly.",
           type: "is-success"
         })
+        
       } catch (e) {
         this.$snackbar.open({
           duration: 5000,
