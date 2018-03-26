@@ -88,8 +88,8 @@ export default {
       formAction: "contact",
       formName: "contactJohnathan",
       form: {
-        email: "",
         name: "",
+        email: "",
         phone: "",
         message: "",
         bot: ""
@@ -99,14 +99,16 @@ export default {
   methods: {
     async onSubmit() {
       try {
+
         let formdata = new FormData()
-        formdata.append("email", this.form.email)
         formdata.append("name", this.form.name)
+        formdata.append("email", this.form.email)
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
         formdata.append("bot", this.form.bot)
+
         const formSubmission = await this.$axios({
-          url: this.formName,
+          url: this.action,
           type: "post",
           data: formdata
         })

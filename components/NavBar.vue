@@ -29,4 +29,10 @@ export default {}
 .navbar {
   background-color: black;
 }
+@media (max-width: 1023px) {
+#main-menu {
+  background-color: #37A5E5;
+}
+}
+
 </style>
