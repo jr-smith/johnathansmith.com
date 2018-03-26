@@ -114,12 +114,26 @@ export default {
         formdata.append("email", this.form.email)
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
-        formdata.append("bot-field", this.form.botField)
+        // formdata.append("bot-field", this.form.botField)
         for(var pair of formdata.entries()) {
    console.log(pair[0]+ ', '+ pair[1]); 
 }
 
         const formSubmission = await this.$axios({
+          url: this.formUrl,
+          type: "post",
+          data: this.formdata,
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          }
+        })
+
+        this.$toast.open({
+          message: "Thanks for the message. I'll be in touch shortly.",
+          type: "is-success"
+        })
+
+        const formSubmission2 = await this.$axios({
           url: this.formUrl,
           type: "post",
           data: this.form,
@@ -132,6 +146,7 @@ export default {
           message: "Thanks for the message. I'll be in touch shortly.",
           type: "is-success"
         })
+
       } catch (e) {
         this.$snackbar.open({
           duration: 5000,
