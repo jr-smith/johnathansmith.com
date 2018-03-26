@@ -27,7 +27,7 @@
 
       <div class="container">
         <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-        <form :action="formAction" :name="formName" netlify-honeypot="bot-field" netlify method="POST" @submit.prevent="onSubmit">
+        <form :action="formAction" :name="formName" netlify-honeypot="bot-field" netlify method="POST">
           <input :value="formName" type="hidden" name="form-name">
           <p class="hidden">
             <label>Don’t fill this out if you're human: <input v-model="form.botField" name="bot-field"></label>
