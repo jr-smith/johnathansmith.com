@@ -100,7 +100,7 @@ export default {
   methods: {
     async onSubmit() {
       console.log(this.form)
-      console.log(this.formname)
+      console.log(this.formName)
       console.log(this.formAction)
       console.log(window.location.href + this.action)
       try {
@@ -110,10 +110,10 @@ export default {
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
         formdata.append("bot-field", this.form.botField)
-        consol.log(formdata)
+        console.log(formdata)
 
         const formSubmission = await this.$axios({
-          url: window.location.href + this.action,
+          url: window.location.href + this.formAction,
           type: "post",
           data: formdata,
           headers: {
