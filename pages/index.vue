@@ -13,7 +13,7 @@
           <h3 class="is-size-3 white">I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
         </div>
       </div>
-      <!--
+      
 <ul>
 <li v-for="post in posts" :key="post.date">
 <nuxt-link :to="post._path">
@@ -21,7 +21,7 @@
 </nuxt-link>
 </li>
 </ul>
--->
+
     </div>
 
     <section id="clients" class="hero section is-info">
