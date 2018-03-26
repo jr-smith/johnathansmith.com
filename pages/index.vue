@@ -115,12 +115,14 @@ export default {
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
         formdata.append("bot-field", this.form.botField)
-        console.log(formdata)
+        for(var pair of formdata.entries()) {
+   console.log(pair[0]+ ', '+ pair[1]); 
+}
 
         const formSubmission = await this.$axios({
           url: this.formUrl,
           type: "post",
-          data: formdata,
+          data: this.form,
           headers: {
             "Content-Type": "application/x-www-form-urlencoded"
           }
