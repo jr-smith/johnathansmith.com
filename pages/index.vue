@@ -1,69 +1,69 @@
 <template>
-<div id="home">
-  <div class="hero-body">
-    <div class="container">
-      <div id="intro" class="has-text-centered intro">
-        <img src="/johnathan.png" class="profile-photo" >
-        <h1 class="title is-size-1">
-          Johnathan R. Smith
-        </h1>
-        <h2 class="subtitle is-size-2 white">
-          Full Stack Web Developer in Raleigh, NC
-        </h2>
-        <h3 class="is-size-3 white">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
+  <div id="home">
+    <div class="hero-body">
+      <div class="container">
+        <div id="intro" class="has-text-centered intro">
+          <img src="/johnathan.png" class="profile-photo" >
+          <h1 class="title is-size-1">
+            Johnathan R. Smith
+          </h1>
+          <h2 class="subtitle is-size-2 white">
+            Full Stack Web Developer in Raleigh, NC
+          </h2>
+          <h3 class="is-size-3 white">I work with PHP/Laravel, C#, WordPress, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
+        </div>
       </div>
+      <!--
+<ul>
+<li v-for="post in posts" :key="post.date">
+<nuxt-link :to="post._path">
+{{ post.title }}
+</nuxt-link>
+</li>
+</ul>
+netlify-honeypot="bot"
+-->
     </div>
-  <!--
-  <ul>
-    <li v-for="post in posts" :key="post.date">
-      <nuxt-link :to="post._path">
-        {{ post.title }}
-      </nuxt-link>
-    </li>
-  </ul>
-  netlify-honeypot="bot"
-  -->
-  </div>
-  <section class="section" id="contact">
+    <section id="contact" class="section">
 
-    <div class="container">
-      <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form @submit.prevent="onSubmit" :action="formAction" :name="formName"  method="POST" netlify-honeypot="bot-field" netlify >
-        <input type="hidden" name="form-name" :value="formName" />
-        <p class="hidden">
-          <label>Don’t fill this out if you're human: <input v-model="form.botField" name="bot-field"></label>
-        </p>
-  
-        <b-field label="Name">
+      <div class="container">
+        <h4 class="title is-size-3">In need of web development? Let me know.</h4>
+        <form :action="formAction" :name="formName" netlify-honeypot="bot-field" netlify method="POST" @submit.prevent="onSubmit">
+          <input :value="formName" type="hidden" name="form-name">
+          <p class="hidden">
+            <label>Don’t fill this out if you're human: <input v-model="form.botField" name="bot-field"></label>
+          </p>
+
+          <b-field label="Name">
             <b-input v-model="form.name" name="name" type="text" />
-        </b-field>
+          </b-field>
 
-        <b-field label="Email">
+          <b-field label="Email">
             <b-input v-model="form.email" name="email" type="email" />
-        </b-field>
+          </b-field>
 
-        <b-field label="Phone">
-            <b-input v-model="form.phone" maxlength="15" type="tel" name="phone" ></b-input>
-        </b-field>
+          <b-field label="Phone">
+            <b-input v-model="form.phone" maxlength="15" type="tel" name="phone" />
+          </b-field>
 
-        <b-field label="Message">
-            <b-input v-model="form.message" maxlength="200" type="textarea" name="message" ></b-input>
-        </b-field>
+          <b-field label="Message">
+            <b-input v-model="form.message" maxlength="200" type="textarea" name="message" />
+          </b-field>
 
 
-        <b-field>
+          <b-field>
             <p class="control">
-                <button class="button is-primary">
-                  Send message
-                </button>
+              <button class="button is-primary">
+                Send message
+              </button>
             </p>
-        </b-field>  
-      </form>
+          </b-field>  
+        </form>
 
-    </div>
+      </div>
 
-  </section>
-</div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -101,7 +101,6 @@ export default {
   methods: {
     async onSubmit() {
       try {
-
         let formdata = new FormData()
         formdata.append("name", this.form.name)
         formdata.append("email", this.form.email)
@@ -112,14 +111,16 @@ export default {
         const formSubmission = await this.$axios({
           url: this.action,
           type: "post",
-          data: formdata
+          data: formdata,
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          }
         })
 
         this.$toast.open({
           message: "Thanks for the message. I'll be in touch shortly.",
           type: "is-success"
         })
-        
       } catch (e) {
         this.$snackbar.open({
           duration: 5000,
@@ -139,7 +140,7 @@ export default {
     display: none;
   }
   #contact {
-    background-color: #FFF;
+    background-color: #fff;
   }
   .profile-photo {
     display: block;
@@ -151,5 +152,4 @@ export default {
     background-color: transparent;
   }
 }
-
 </style>

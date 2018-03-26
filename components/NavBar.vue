@@ -9,11 +9,14 @@
           <span/>
         </div>
       </div>
-      <div class="navbar-menu" id="main-menu">
+      <div id="main-menu" class="navbar-menu">
         <div class="navbar-start">
           <nuxt-link to="/resume" class="navbar-item">
             <span class="bd-emoji">⭐️</span>
             Resume
+          </nuxt-link>
+          <nuxt-link to="/about" class="navbar-item">
+            About
           </nuxt-link>
         </div>
       </div>
@@ -30,9 +33,8 @@ export default {}
   background-color: black;
 }
 @media (max-width: 1023px) {
-#main-menu {
-  background-color: #37A5E5;
+  #main-menu {
+    background-color: #37a5e5;
+  }
 }
-}
-
 </style>

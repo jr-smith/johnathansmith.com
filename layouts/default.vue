@@ -18,7 +18,16 @@ export default {
   margin: 0 auto;
 }
 html body .title {
-  color: #37A5E5;
+  color: #37a5e5;
+}
+.content p:not(:last-child),
+.content dl:not(:last-child),
+.content ol:not(:last-child),
+.content ul:not(:last-child),
+.content blockquote:not(:last-child),
+.content pre:not(:last-child),
+.content table:not(:last-child) {
+  margin-bottom: 1em;
 }
 html,
 body {
@@ -43,7 +52,6 @@ body {
   }
 }
 
-
 ul.list-arrows {
   padding-left: 2rem;
 }
@@ -62,4 +70,8 @@ form {
   max-width: 500px;
 }
 
+.content figure.block {
+  margin: 0;
+  display: block;
+}
 </style>
