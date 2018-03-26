@@ -86,7 +86,7 @@ export default {
     }))
     return {
       posts,
-      formAction: "contact/",
+      formAction: "contact",
       formName: "contactJohnathan",
       form: {
         name: "",
@@ -113,7 +113,7 @@ export default {
         console.log(formdata)
 
         const formSubmission = await this.$axios({
-          url: window.location.href + this.formAction,
+          url: `${window.location.href}${this.formAction}/`,
           type: "post",
           data: formdata,
           headers: {
