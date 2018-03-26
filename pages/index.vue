@@ -97,12 +97,17 @@ export default {
       }
     }
   },
+  computed: {
+    formUrl() {
+      return window.location.href + this.formAction + "/"
+    }
+  },
   methods: {
     async onSubmit() {
       console.log(this.form)
       console.log(this.formName)
       console.log(this.formAction)
-      console.log(window.location.href + this.action)
+      console.log(this.formUrl)
       try {
         let formdata = new FormData()
         formdata.append("name", this.form.name)
@@ -113,7 +118,7 @@ export default {
         console.log(formdata)
 
         const formSubmission = await this.$axios({
-          url: `${window.location.href}${this.formAction}/`,
+          url: this.formUrl,
           type: "post",
           data: formdata,
           headers: {
