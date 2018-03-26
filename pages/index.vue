@@ -27,7 +27,7 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form  :name="formName" netlify-honeypot="bot" method="POST"  netlify>
+      <form  :action="formAction" :name="formName" netlify-honeypot="bot" method="POST"  netlify>
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input v-model="form.bot" name="bot"></label>
         </p>
@@ -85,7 +85,8 @@ export default {
     }))
     return {
       posts,
-      formName: "contact",
+      formAction: "contact",
+      formName: "contactJohnathan",
       form: {
         email: "",
         name: "",
