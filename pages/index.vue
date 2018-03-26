@@ -27,17 +27,17 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form  @submit.prevent="onSubmit" netlify-honeypot="bot-field" method="POST" netlify>
+      <form  @submit.prevent="onSubmit" name="contactJohnathan" netlify-honeypot="bot-field" method="POST"  netlify>
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field"></label>
         </p>
   
         <b-field label="Name">
-            <b-input v-model="form.name" name="name" type="text"   />
+            <b-input v-model="form.name" :name="formName" type="text" />
         </b-field>
 
         <b-field label="Email">
-            <b-input v-model="form.email" name="email" type="email"  />
+            <b-input v-model="form.email" name="email" type="email" />
         </b-field>
 
         <b-field label="Phone">
@@ -78,33 +78,41 @@ export default {
     ]
   },
   data() {
-        // Using webpacks context to gather all files from a folder
-    const context = require.context("~/content/blog/posts/", false, /\.json$/);
-
+    const context = require.context("~/content/blog/posts/", false, /\.json$/)
     const posts = context.keys().map(key => ({
       ...context(key),
       _path: `/blog/${key.replace(".json", "").replace("./", "")}`
-    }));
-
-    return { 
+    }))
+    return {
       posts,
+      formName: "contact",
       form: {
-        email: '',
-        name: '',
-        phone: '',
-        message: ''
+        email: "",
+        name: "",
+        phone: "",
+        message: ""
       }
     }
   },
   methods: {
-    onSubmit() {
-      this.$snackbar.open({
-        duration: 5000,
-        message: 'Snackbar with red action, positioned on bottom-left and a callback',
-        type: 'is-danger',
-        position: 'is-bottom-left',
-        queue: false
-      })
+    async onSubmit() {
+      try {
+        const formSubmission = await this.$axios.post(
+          this.formName,
+          JSON.stringify(this.form)
+        )
+        this.$toast.open({
+          message: "Thanks for the message. I'll be in touch shortly.",
+          type: "is-success"
+        })
+      } catch (e) {
+        this.$snackbar.open({
+          duration: 5000,
+          message: e.message,
+          type: "is-danger"
+        })
+        throw new Error(e)
+      }
     }
   }
 }

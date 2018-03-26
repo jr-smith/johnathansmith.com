@@ -9,9 +9,12 @@ var dynamicRoutes = getDynamicPaths({
 })
 
 module.exports = {
-  /*
-  ** Headers of the page
-  */
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    // proxyHeaders: false
+  },
   plugins: [
     // ssr: false to only include it on client-side
     { src: "~/plugins/buefy.js", ssr: false }
