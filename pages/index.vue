@@ -28,10 +28,10 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form :action="formAction" :name="formName"  method="POST"  netlify>
+      <form :action="formAction" :name="formName"  method="POST" netlify-honeypot="bot-field" netlify >
         <input type="hidden" name="form-name" :value="formName" />
         <p class="hidden">
-          <label>Don’t fill this out if you're human: <input v-model="form.bot" name="bot"></label>
+          <label>Don’t fill this out if you're human: <input v-model="form.botField" name="bot-field"></label>
         </p>
   
         <b-field label="Name">
@@ -94,7 +94,7 @@ export default {
         email: "",
         phone: "",
         message: "",
-        bot: ""
+        botField: ""
       }
     }
   },
@@ -107,7 +107,7 @@ export default {
         formdata.append("email", this.form.email)
         formdata.append("phone", this.form.phone)
         formdata.append("message", this.form.message)
-        formdata.append("bot", this.form.bot)
+        formdata.append("bot-field", this.form.botField)
 
         const formSubmission = await this.$axios({
           url: this.action,
