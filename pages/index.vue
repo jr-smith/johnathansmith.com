@@ -87,7 +87,7 @@ export default {
     }))
     return {
       posts,
-      formAction: "/contact",
+      formAction: "/contact/",
       formName: "contactJohnathan",
       form: {
         name: "",
