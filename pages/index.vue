@@ -27,13 +27,13 @@
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form  @submit.prevent="onSubmit" name="contactJohnathan" netlify-honeypot="bot-field" method="POST"  netlify>
+      <form  @submit.prevent="onSubmit" :name="formName" netlify-honeypot="bot" method="POST"  netlify>
         <p class="hidden">
-          <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+          <label>Don’t fill this out if you're human: <input v-model="form.bot" name="bot"></label>
         </p>
   
         <b-field label="Name">
-            <b-input v-model="form.name" :name="formName" type="text" />
+            <b-input v-model="form.name" name="name" type="text" />
         </b-field>
 
         <b-field label="Email">
@@ -90,17 +90,26 @@ export default {
         email: "",
         name: "",
         phone: "",
-        message: ""
+        message: "",
+        bot: ""
       }
     }
   },
   methods: {
     async onSubmit() {
       try {
-        const formSubmission = await this.$axios.post(
-          this.formName,
-          JSON.stringify(this.form)
-        )
+        let formdata = new FormData()
+        formdata.append("email", this.form.email)
+        formdata.append("name", this.form.name)
+        formdata.append("phone", this.form.phone)
+        formdata.append("message", this.form.message)
+        formdata.append("bot", this.form.bot)
+        const formSubmission = await this.$axios({
+          url: this.formName,
+          type: "post",
+          data: formdata
+        })
+
         this.$toast.open({
           message: "Thanks for the message. I'll be in touch shortly.",
           type: "is-success"
