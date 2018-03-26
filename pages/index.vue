@@ -99,7 +99,8 @@ export default {
   },
   computed: {
     formUrl() {
-      return window.location.href + this.formAction + "/"
+      // return window.location.href + this.formAction + "/"
+      return "/" + this.formAction + "/"
     }
   },
   methods: {
