@@ -87,7 +87,7 @@ export default {
     }))
     return {
       posts,
-      formAction: "/contact/",
+      formAction: "contact/",
       formName: "contactJohnathan",
       form: {
         name: "",
@@ -109,7 +109,7 @@ export default {
         formdata.append("bot-field", this.form.botField)
 
         const formSubmission = await this.$axios({
-          url: this.action,
+          url: window.location.href + this.action,
           type: "post",
           data: formdata,
           headers: {
