@@ -21,13 +21,14 @@
       </nuxt-link>
     </li>
   </ul>
+  netlify-honeypot="bot"
   -->
   </div>
   <section class="section" id="contact">
 
     <div class="container">
       <h4 class="title is-size-3">In need of web development? Let me know.</h4>
-      <form  :action="formAction" :name="formName" netlify-honeypot="bot" method="POST"  netlify>
+      <form  :action="formAction" :name="formName"  method="POST"  netlify>
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input v-model="form.bot" name="bot"></label>
         </p>
