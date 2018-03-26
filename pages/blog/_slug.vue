@@ -26,15 +26,17 @@ export default {
     console.log(post)
     return post
   },
-  head: {
-    title: this.metatitle,
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: this.metadescription
-      }
-    ]
+  head() {
+    return {
+      title: metatitle,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: metadescription
+        }
+      ]
+    }
   }
 }
 </script>
