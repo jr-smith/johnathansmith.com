@@ -16,7 +16,7 @@
     </div>
 
     <section id="clients" class="hero section is-info">
-      <div class="container content">
+      <div class="container">
         <h4 class="title is-size-3 has-text-centered">Some of my clients</h4>
         <div class="columns has-text-centered">
           <div class="column is-one-third">
