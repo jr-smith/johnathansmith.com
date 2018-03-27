@@ -9,9 +9,16 @@ var dynamicRoutes = getDynamicPaths({
 })
 
 module.exports = {
-  modules: ["@nuxtjs/axios", "@nuxtjs/component-cache"],
+  modules: [
+    "@nuxtjs/axios", 
+    //"@nuxtjs/component-cache", 
+    "@nuxtjs/markdownit"
+  ],
   axios: {
     // proxyHeaders: false
+  },
+  markdownit: {
+    injected: true
   },
   plugins: [
     // ssr: false to only include it on client-side

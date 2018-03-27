@@ -14,13 +14,13 @@
         </div>
       </div>
       
-<ul>
+<!-- <ul>
 <li v-for="post in posts" :key="post.date">
 <nuxt-link :to="post._path">
 {{ post.title }}
 </nuxt-link>
 </li>
-</ul>
+</ul> -->
 
     </div>
 
