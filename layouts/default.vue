@@ -32,9 +32,6 @@ html,
 body {
   background-color: #38474f;
 }
-body {
-  font-size: calc(0.95rem + 0.1vw);
-}
 .white {
   color: #fff;
 }

@@ -94,7 +94,7 @@ module.exports = {
     }
     */
   },
-  css: [{ src: "@/assets/newbulma.scss", lang: "sass" }]
+  css: [{ src: "@/assets/bulma-theme.scss", lang: "sass" }]
 }
 
 /**
