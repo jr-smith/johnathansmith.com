@@ -79,27 +79,22 @@ module.exports = {
   build: {
     /*
     ** Run ESLint on save
+    extend(config, { isDev, isClient }) {
+      if (isDev && isClient) {
+        config.module.rules.push({
+          enforce: "pre",
+          test: /\.(js|vue)$/,
+          loader: "eslint-loader",
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
+        })
+      }
+    }
     */
-    // extend(config, { isDev, isClient }) {
-    //   if (isDev && isClient) {
-    //     config.module.rules.push({
-    //       enforce: "pre",
-    //       test: /\.(js|vue)$/,
-    //       loader: "eslint-loader",
-    //       exclude: /(node_modules)/
-    //     })
-    //   }
-    // }
   },
-  css: [
-    { src: "@/assets/newbulma.scss", lang: "sass" }
-    // Load a Node.js module directly (here it's a Sass file)
-    // 'bulma',
-    // // CSS file in the project
-    // '@/assets/css/main.css',
-    // // SCSS file in the project
-    // '@/assets/css/main.scss'
-  ]
+  css: [{ src: "@/assets/newbulma.scss", lang: "sass" }]
 }
 
 /**

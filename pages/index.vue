@@ -122,7 +122,7 @@ export default {
           console.log(pair[0] + ", " + pair[1])
         }
 
-        const formSubmission = await this.$axios({
+        await this.$axios({
           url: this.formUrl,
           type: "post",
           data: this.formdata,
@@ -136,7 +136,7 @@ export default {
           type: "is-success"
         })
 
-        const formSubmission2 = await this.$axios({
+        await this.$axios({
           url: this.formUrl,
           type: "post",
           data: this.form,

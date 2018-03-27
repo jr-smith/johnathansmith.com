@@ -18,9 +18,7 @@ export default {
 .centered {
   margin: 0 auto;
 }
-html body .title {
-  /* color: #37a5e5; */
-}
+
 .content p:not(:last-child),
 .content dl:not(:last-child),
 .content ol:not(:last-child),
@@ -81,5 +79,4 @@ form {
         background-color: #2fa4e7 !important;
   }
 } */
-
 </style>

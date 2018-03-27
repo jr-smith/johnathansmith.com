@@ -23,15 +23,13 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "space-before-function-paren": ["error", "off"],
     "import/no-unresolved": 0,
     "import/no-unassigned-import": 0,
     "semi": ["error", "never"],
     "no-console": "off",
-    "space-before-function-paren": "off",
-    // "indent": ["error", "tab"],
     "vue/max-attributes-per-line": "off",
     "vue/space-before-function-paren": "off",
+    "space-before-function-paren": 0,
     "space-before-function-paren": [
       "error",
       {
