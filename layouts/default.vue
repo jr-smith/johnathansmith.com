@@ -4,6 +4,7 @@
     <nuxt/>
   </div>
 </template>
+
 <script>
 import NavBar from "../components/NavBar"
 export default {
@@ -18,7 +19,7 @@ export default {
   margin: 0 auto;
 }
 html body .title {
-  color: #37a5e5;
+  /* color: #37a5e5; */
 }
 .content p:not(:last-child),
 .content dl:not(:last-child),
@@ -75,4 +76,10 @@ form {
   margin: 0;
   display: block;
 }
+/* html body .hero {
+  &:.is-primary {
+        background-color: #2fa4e7 !important;
+  }
+} */
+
 </style>

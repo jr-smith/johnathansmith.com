@@ -1,6 +1,6 @@
 import Vue from "vue"
 import Buefy from "buefy"
-import "buefy/lib/buefy.css"
+// import "buefy/lib/buefy.css"
 
 Vue.use(Buefy)
 Vue.config.devtools = true

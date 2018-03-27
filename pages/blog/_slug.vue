@@ -3,9 +3,9 @@
     <div class="hero-body">
       <div class="container">
         <div class="intro content">
-          <h1 class="post-title is-size-1">{{title}}</h1>
-          <img :src="thumbnail" class="post-thumbnail" />
-          <div class="post-body" v-html="$md.render(body)"></div>
+          <h1 class="post-title is-size-1">{{ title }}</h1>
+          <img :src="thumbnail" class="post-thumbnail" >
+          <div class="post-body" v-html="$md.render(body)"/>
         </div>
       </div>
     </div>
@@ -19,7 +19,7 @@ export default {
       post: {}
     }
   },
-  async asyncData({params}) {
+  async asyncData({ params }) {
     let post = await import("~/content/blog/posts/" + params.slug + ".json")
     return post
   },

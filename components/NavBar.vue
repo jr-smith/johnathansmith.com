@@ -18,6 +18,9 @@
           <nuxt-link to="/about" class="navbar-item">
             About
           </nuxt-link>
+          <nuxt-link to="/blog" class="navbar-item">
+            Blog
+          </nuxt-link>
         </div>
       </div>
 

@@ -10,8 +10,8 @@ var dynamicRoutes = getDynamicPaths({
 
 module.exports = {
   modules: [
-    "@nuxtjs/axios", 
-    //"@nuxtjs/component-cache", 
+    "@nuxtjs/axios",
+    //"@nuxtjs/component-cache",
     "@nuxtjs/markdownit"
   ],
   axios: {
@@ -61,21 +61,15 @@ module.exports = {
         rel: "mask-icon",
         href: "/favicons/safari-pinned-tab.svg",
         color: "#5bbad5"
-      },
-      {
-        rel: "stylesheet",
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.6.2/cerulean/bulmaswatch.min.css"
       }
+      // {
+      //   rel: "stylesheet",
+      //   href:
+      //     "https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.6.2/cerulean/bulmaswatch.min.css"
+      // }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
-  loading: { color: "#3B8070" },
-  /*
-  ** Route config for pre-rendering
-  */
+  loading: { color: "#c71c22" },
   generate: {
     routes: dynamicRoutes
   },
@@ -96,7 +90,16 @@ module.exports = {
     //     })
     //   }
     // }
-  }
+  },
+  css: [
+    { src: "@/assets/newbulma.scss", lang: "sass" }
+    // Load a Node.js module directly (here it's a Sass file)
+    // 'bulma',
+    // // CSS file in the project
+    // '@/assets/css/main.css',
+    // // SCSS file in the project
+    // '@/assets/css/main.scss'
+  ]
 }
 
 /**

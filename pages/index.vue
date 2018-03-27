@@ -13,15 +13,6 @@
           <h3 class="is-size-3 white">I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational &amp; NoSQL Databases.</h3>
         </div>
       </div>
-      
-<!-- <ul>
-<li v-for="post in posts" :key="post.date">
-<nuxt-link :to="post._path">
-{{ post.title }}
-</nuxt-link>
-</li>
-</ul> -->
-
     </div>
 
     <section id="clients" class="hero section is-info">
@@ -29,13 +20,13 @@
         <h4 class="title is-size-3 has-text-centered">Some of my clients</h4>
         <div class="columns has-text-centered">
           <div class="column is-one-third">
-            <img src="/images/uploads/ncstate.png" alt="nc state" />
+            <img src="/images/uploads/ncstate.png" alt="nc state" >
           </div>
           <div class="column is-one-third">
-            <img src="/images/uploads/popefoundation.png" alt="pope foundation" />
+            <img src="/images/uploads/popefoundation.png" alt="pope foundation" >
           </div>
           <div class="column is-one-third">
-            <img src="/images/uploads/raleighmold.png" alt="raleigh mold" />
+            <img src="/images/uploads/raleighmold.png" alt="raleigh mold" >
           </div>
         </div>
       </div>
@@ -96,13 +87,7 @@ export default {
     ]
   },
   data() {
-    const context = require.context("~/content/blog/posts/", false, /\.json$/)
-    const posts = context.keys().map(key => ({
-      ...context(key),
-      _path: `/blog/${key.replace(".json", "").replace("./", "")}`
-    }))
     return {
-      posts,
       formAction: "contact",
       formName: "contactJohnathan",
       form: {
