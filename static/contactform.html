@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form test</title>
+        <style>
+        .hidden {
+            display:none;
+        }
+        </style>
+    </head>
+    <body>
+        <form  name="dennis" netlify-honeypot="bot-field" netlify method="POST">
+            <input type="text" name="bot-field" class="hidden" />
+            <input name="name" placeholder="name" />
+            <input name="email" type="email" placeholder="email" />
+            <input name="phone" type="tel" placeholder="phone" />
+            <textarea name="messsage" placeholder="message"></textarea>
+    </body>
+</html>
