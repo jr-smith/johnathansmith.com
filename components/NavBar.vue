@@ -22,13 +22,22 @@
             Blog
           </nuxt-link>
         </div>
+        <div class="navbar-end">
+          <a href="https://www.linkedin.com/in/johnathansmith/" class="navbar-item" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/heyitsjohnathan" class="navbar-item" target="_blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+        </div>
       </div>
 
     </div>
   </nav>
 </template>
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style lang="scss">

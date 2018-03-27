@@ -38,6 +38,10 @@ module.exports = {
       { name: "msapplication-TileColor", content: "#da532c" },
       { name: "theme-color", content: "#ffffff" }
     ],
+    script: [
+      {src: "https://use.fontawesome.com/releases/v5.0.8/js/brands.js"},
+      {src: "https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"}
+    ],
     link: [
       {
         rel: "apple-touch-icon",
