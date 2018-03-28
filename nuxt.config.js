@@ -14,7 +14,8 @@ module.exports = {
   modules: [
     "@nuxtjs/axios",
     //"@nuxtjs/component-cache",
-    "@nuxtjs/markdownit"
+    "@nuxtjs/markdownit",
+    "@nuxtjs/sitemap"
   ],
   axios: {
     // proxyHeaders: false
@@ -73,6 +74,14 @@ module.exports = {
   },
   loading: false,
   generate: {
+    routes: dynamicRoutes
+  },
+  sitemap: {
+    path: "/sitemap.xml",
+    hostname: process.env.API_URL,
+    cacheTime: 1000 * 60 * 15,
+    generate: true, // Enable me when using nuxt generate
+    exclude: [],
     routes: dynamicRoutes
   },
   /*
