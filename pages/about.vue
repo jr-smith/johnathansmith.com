@@ -16,9 +16,9 @@
               <div class="is-clearfix"/><br>
             </div>
             <div class="column">
-              <p>Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle.</p>
-              <p>He enjoys family time, pinball, hiking, and engineering awesome web applications.</p>
-              <p>Some coding things that currently pique his interest are:</p>
+              <p>Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle (just look at those eyes 😁). Quirky fact: one time while trekking through Iceland, he ate puffin and whale 🤨</p>
+              <p>He enjoys family time, pinball, hiking, trying new coffee blends, and engineering awesome web applications.</p>
+              <p>Some coding technologies that currently pique his interest are:</p>
               <ul class="list-arrows">
                 <li>GraphQL</li>
                 <li>Node</li>
