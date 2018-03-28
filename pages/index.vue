@@ -23,6 +23,9 @@
             <img src="/images/uploads/ncstate.png" alt="nc state" >
           </div>
           <div class="column is-one-third">
+            <img src="/images/uploads/freedm.png" alt="freedm systems center" >
+          </div>
+          <div class="column is-one-third">
             <img src="/images/uploads/popefoundation.png" alt="pope foundation" >
           </div>
           <div class="column is-one-third">
