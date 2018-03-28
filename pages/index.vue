@@ -92,7 +92,7 @@ export default {
   data() {
     return {
       formAction: "contact",
-      formName: "contactJohnathan",
+      formName: "contact",
       form: {
         name: "",
         email: "",
