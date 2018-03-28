@@ -72,9 +72,10 @@
         <hr >
 
         <div class="columns is-multiline">
-          <div class="column">
-            <div class="is-pulled-left"><strong>NC State University<br>Web Developer</strong></div>
-            <div class="is-pulled-right"><em>April 2015 - Present</em></div>
+          <div class="column is-half">
+            <strong>NC State University<br>Web Developer</strong>
+          </div>
+          <div class="column is-half has-text-right"><em>April 2015 - Present</em>
           </div>
         </div>
 
@@ -101,10 +102,10 @@
 
 
           <div class="columns is-multiline" style="margin-top: 1rem">
-            <div class="column">
-              <div class="is-pulled-left"><strong>Civitas Institute<br>Web Developer</strong></div>
-              <div class="is-pulled-right"><em>May 2008 - April 2015</em></div>
+            <div class="column is-half">
+              <strong>Civitas Institute<br>Web Developer</strong>
             </div>
+            <div class="column is-half has-text-right"><em>May 2008 - April 2015</em></div>
           </div>
 
           <div>

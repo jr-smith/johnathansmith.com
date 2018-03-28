@@ -4,8 +4,8 @@
       <div class="container">
         <div id="about" class="intro content">
           <h1 class="title is-size-3 has-text-centered">About Johnathan</h1>
-          <div class="columns">
-            <div class="is-pulled-left" style="padding-right: 10px;">
+          <div class="columns is-tablet">
+            <div class="column is-narrow has-text-centered">
               <figure class="image is-128x128 is-pulled-left block">
                 <img src="/images/uploads/johnathan-sarah.jpg">
               </figure>
@@ -37,5 +37,8 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+figure {
+  display: block;
+}
 </style>

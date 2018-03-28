@@ -1,0 +1,1358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"label",
+				"labelsToRequire"
+			],
+			[
+				"gee",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"off",
+				"offsetParent\t.offsetParent()"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"getele",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Document"
+			],
+			[
+				"docue",
+				"document\t: Document Window"
+			],
+			[
+				"8bi",
+				"8-bit"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"docu",
+				"document\t: Document Window"
+			],
+			[
+				"spli",
+				"splice\t( start: int, deleteCount: int, items_..: any ): Array Array"
+			],
+			[
+				"word",
+				"words〔variable〕"
+			],
+			[
+				"user",
+				"userMessage3〔variable〕"
+			],
+			[
+				"random",
+				"randomVaraible〔variable〕"
+			],
+			[
+				"smiley",
+				"smileyArray〔variable〕"
+			],
+			[
+				"endfor",
+				"endforeach〔keyword〕"
+			],
+			[
+				"rwwE",
+				"rwwEventVenue"
+			],
+			[
+				"endfo",
+				"endforeach〔keyword〕"
+			],
+			[
+				"fe",
+				"feedbackForm"
+			],
+			[
+				"feed",
+				"feedback_button〔variable〕"
+			],
+			[
+				"feedb",
+				"feedback_button〔variable〕"
+			],
+			[
+				"sect",
+				"section2.php"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"hasM",
+				"hasManyThrough〔function〕"
+			],
+			[
+				"check",
+				"$checks〔variable〕"
+			],
+			[
+				"coun",
+				"count_of_subjects"
+			],
+			[
+				"subje",
+				"subjects"
+			],
+			[
+				"subjce",
+				"subjects"
+			],
+			[
+				"request",
+				"request_subjects"
+			],
+			[
+				"expert",
+				"expertise"
+			],
+			[
+				"suj",
+				"subjects_sync_array"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"selected_lang",
+				"selected_languages"
+			],
+			[
+				"reque",
+				"request"
+			],
+			[
+				"request_",
+				"$request_subject〔variable〕"
+			],
+			[
+				"request_su",
+				"$request_subjects〔variable〕"
+			],
+			[
+				"selected_s",
+				"$selected_subjects〔variable〕"
+			],
+			[
+				"selec",
+				"selectColleges"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"subj",
+				"subjects_csv"
+			],
+			[
+				"sub",
+				"subjects"
+			],
+			[
+				"lang",
+				"languages"
+			],
+			[
+				"getim",
+				"getImagePath"
+			],
+			[
+				"founder",
+				"founder_slider_image"
+			],
+			[
+				"found",
+				"founder_id"
+			],
+			[
+				"auth",
+				"author_array"
+			],
+			[
+				"meta_",
+				"meta_author"
+			],
+			[
+				"coau",
+				"coauthor_id"
+			],
+			[
+				"meta_qu",
+				"meta_query_args"
+			],
+			[
+				"is_main_",
+				"is_main_query"
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"lin",
+				"line-height: "
+			],
+			[
+				"featured",
+				"featured_image_id"
+			],
+			[
+				"cluster",
+				"cluster_photo"
+			],
+			[
+				"clu",
+				"cluster_photo"
+			],
+			[
+				"toggle",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"show",
+				"show-search-bar"
+			],
+			[
+				"sho",
+				"show-search-bar"
+			],
+			[
+				"freedm-gray",
+				"freedm-gray-med"
+			],
+			[
+				"get_template_d",
+				"get_template_directory_uri"
+			],
+			[
+				"mast",
+				"masthead"
+			],
+			[
+				"togg",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"new",
+				"news-page"
+			],
+			[
+				"masth",
+				"masthead-search"
+			],
+			[
+				"masthead",
+				"masthead-search"
+			],
+			[
+				"pdf",
+				"pdfLinks"
+			],
+			[
+				"logou",
+				"logout_link"
+			],
+			[
+				"freedm-dark",
+				"freedm-darkgray"
+			],
+			[
+				"post_",
+				"post_type_search"
+			],
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"search",
+				"search-field"
+			],
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"freedm-",
+				"freedm-darkgreen"
+			],
+			[
+				"define",
+				"defined"
+			],
+			[
+				"get_template",
+				"get_template_part"
+			],
+			[
+				"label-font",
+				"label-font-weight"
+			],
+			[
+				"border-color",
+				"border-color-focus"
+			],
+			[
+				"wp_lout",
+				"wp_logout_url"
+			],
+			[
+				"trans",
+				"transition: "
+			],
+			[
+				"freedm",
+				"freedm-darkergray"
+			],
+			[
+				"free",
+				"freedm-darkergray"
+			],
+			[
+				"aces",
+				"access_time"
+			],
+			[
+				"access",
+				"access_time"
+			],
+			[
+				"tax",
+				"taxonomy_objects"
+			],
+			[
+				"the",
+				"the_terms"
+			],
+			[
+				"border-b",
+				"border-bottom-color: "
+			],
+			[
+				"freedm_",
+				"freedm_has_access"
+			],
+			[
+				"curfil",
+				"curfil_header"
+			],
+			[
+				"post",
+				"post_type"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"get_templ",
+				"get_template_part"
+			],
+			[
+				"is_sing",
+				"is_singular"
+			],
+			[
+				"coautho",
+				"coauthored_post"
+			],
+			[
+				"cou",
+				"coauthored_posts"
+			],
+			[
+				"resear",
+				"research_area"
+			],
+			[
+				"get_teml",
+				"get_template_part"
+			],
+			[
+				"acces",
+				"access_time"
+			],
+			[
+				"get_Templat",
+				"get_template_part"
+			],
+			[
+				"get_Templa",
+				"get_template_part"
+			],
+			[
+				"border",
+				"border-bottom: "
+			],
+			[
+				"m",
+				"margin: "
+			],
+			[
+				"backgroud",
+				"background-color: "
+			],
+			[
+				"tra",
+				"transition: "
+			],
+			[
+				"cur",
+				"curauth"
+			],
+			[
+				"get_next_po",
+				"get_next_posts_link"
+			],
+			[
+				"frontL",
+				"frontLeftSub"
+			],
+			[
+				"fre",
+				"freedm-darkgreen"
+			],
+			[
+				"mimes",
+				"mimes2"
+			],
+			[
+				"project",
+				"project_number"
+			],
+			[
+				"stu",
+				"student_id"
+			],
+			[
+				"stuent",
+				"student_ids"
+			],
+			[
+				"student",
+				"student_ids"
+			],
+			[
+				"cura",
+				"curauth_fields"
+			],
+			[
+				"prvent",
+				"preventDefault"
+			],
+			[
+				"gly",
+				"glyphicon-search"
+			],
+			[
+				"gl",
+				"glyphicon"
+			],
+			[
+				"mas",
+				"masthead_search"
+			],
+			[
+				"background",
+				"background-color: "
+			],
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"level2",
+				"level2_time"
+			],
+			[
+				"unix_",
+				"unix_comp"
+			],
+			[
+				"publi",
+				"publish_time"
+			],
+			[
+				"publish",
+				"publish_date"
+			],
+			[
+				"clas",
+				"class_exists"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"last_filter": "proj",
+		"selected_items":
+		[
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"tidy",
+				"Tidy Tabs"
+			],
+			[
+				"form",
+				"Blade Spacer: Format File"
+			],
+			[
+				"pacaka",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"browse pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"colorsc",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpf",
+				"phpfmt: format now"
+			],
+			[
+				"phpfmt",
+				"phpfmt: analyse this"
+			],
+			[
+				"formatt",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"phpcs",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: classc",
+				"Snippet: PHP Class Constructor"
+			],
+			[
+				"Snippet: con",
+				"Snippet: function __construct"
+			],
+			[
+				"getter",
+				"PHP: Generate Getters"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Blade {{ echo escaped data }}"
+			],
+			[
+				"laravel",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"sni",
+				"Snippet: input - button"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"anf",
+				"ANF: Rename File"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"browse pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/johnathansmith/laravel-code/johnathansmith.com"
+	],
+	"file_history":
+	[
+		"/Users/johnathansmith/laravel-code/experts/app/Http/Controllers/ExpertsController.php",
+		"/Users/johnathansmith/laravel-code/experts/app/Http/Requests/ExpertRequest.php",
+		"/Users/johnathansmith/laravel-code/experts/resources/views/admin/edit/expert.blade.php",
+		"/Users/johnathansmith/laravel-code/experts/app/Expert.php",
+		"/Users/johnathansmith/laravel-code/experts/resources/assets/js/admin.js",
+		"/Users/johnathansmith/laravel-code/experts/composer.json",
+		"/Users/johnathansmith/laravel-code/experts/database/migrations/2016_06_29_192448_create_experts_table.php",
+		"/Users/johnathansmith/laravel-code/experts/app/Http/Controllers/TagsController.php",
+		"/Users/johnathansmith/laravel-code/experts/config/seotools.php",
+		"/Users/johnathansmith/laravel-code/experts/resources/views/experts/show.blade.php",
+		"/Users/johnathansmith/laravel-code/experts/webpack.mix.js",
+		"/Users/johnathansmith/laravel-code/experts/.env",
+		"/Users/johnathansmith/Library/Application Support/Sublime Text 3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/Users/johnathansmith/laravel-code/experts/app/Http/Controllers/AdminExpertsController.php",
+		"/Users/johnathansmith/Downloads/site.webmanifest",
+		"/Users/johnathansmith/Downloads/require.js",
+		"/Users/johnathansmith/Desktop/centennial/index.php",
+		"/Users/johnathansmith/git/strategic-planning/scss/_existing.scss",
+		"/Users/johnathansmith/git/strategic-planning/gulpfile.js",
+		"/Users/johnathansmith/git/strategic-planning/style.css",
+		"/Users/johnathansmith/git/strategic-planning/package.json",
+		"/Users/johnathansmith/git/strategic-planning/scss/style.scss",
+		"/Users/johnathansmith/git/strategic-planning/functions.php",
+		"/Users/johnathansmith/git/strategic-planning/shortcodes/sc-fact.php",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week08/smithj_install.txt",
+		"/Users/johnathansmith/git/ncstate-directory/ncstate-directory.php",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week14 - debugging/unit13_lab/config.js",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/settings-ncstate_email.php",
+		"/Users/johnathansmith/Documents/CsharpHelloWorld/Program.cs",
+		"/data/db/votetracker.0",
+		"/data/db/votetracker.ns",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week08/output.txt",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week08/shell_script.js",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week09-midterm/midterm/server.js",
+		"/usr/local/etc/php/7.1/php.ini",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week08/unit08_lab/access.log",
+		"/Users/johnathansmith/git/college-parent/scss/layout/_forms.scss",
+		"/Users/johnathansmith/laravel-code/social-media-registration/resources/assets/sass/_fonts.scss",
+		"/Users/johnathansmith/laravel-code/social-media-registration/resources/assets/sass/_variables.scss",
+		"/Users/johnathansmith/git/gravityforms/form_display.php",
+		"/Users/johnathansmith/git/gravityforms/includes/fields/class-gf-field-page.php",
+		"/Users/johnathansmith/Downloads/college-parent-master/scss/layout/_forms.scss",
+		"/Users/johnathansmith/Downloads/college-parent-master/scss/layout/_gravityforms.scss",
+		"/Users/johnathansmith/git/red-white-child/scss/layout/_layout.scss",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week05/extendobject.html",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week05/newmethod.html",
+		"/Users/johnathansmith/git/red-white-child/scss/layout/_forms.scss",
+		"/private/var/folders/5m/5qpcvmd52wz0lv6h311_04_m0000gn/T/app_Events_SocialRecordCreated_Before_ce0c0891c2e3050a188603a0a3e493058cd9c0b6.php",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week07/unit07_lab/feedback.log",
+		"/Users/johnathansmith/sites/gravity/wp-content/plugins/gravityforms/includes/fields/class-gf-field-name.php",
+		"/Users/johnathansmith/git/red-white-child/yarn.lock",
+		"/Users/johnathansmith/git/college-parent/scss/layout/forms/_signup-box.scss",
+		"/Users/johnathansmith/git/college-parent/scss/layout/forms-gravity/_allforms.scss",
+		"/Users/johnathansmith/git/college-parent/scss/layout/forms-gravity/_gforms.scss",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/styles.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/header.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/content.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/navbar.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/body.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/sidebar.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/functions.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/index.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/footer.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/favicon.php",
+		"/Users/johnathansmith/Google Drive/sites/8bitfonts.com/analytics.php",
+		"/Users/johnathansmith/laravel-code/social-media-registration/resources/views/users/edit.blade.php",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week04/arrayforin.html",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week04/datetime.html",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week04/switchcondition.html",
+		"/Users/johnathansmith/laravel-code/social-media-registration/config/image.php",
+		"/Users/johnathansmith/Google Drive/Masters/DBA120 - Database Programming/week04/Week4jrs.sql",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week06/unit06_lab/unit06_lab/package.json",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week06/unit06_lab/unit06_lab/app.js",
+		"/Users/johnathansmith/git/college-parent/scss/style.scss",
+		"/Users/johnathansmith/git/red-white-child/node_modules/laravel-mix/src/Mix.js",
+		"/Users/johnathansmith/git/freedm-child/scss/style.scss",
+		"/Users/johnathansmith/laravel-code/email-generator/public/js/app.js",
+		"/Users/johnathansmith/git/red-white-child/page-save-date-landing.php",
+		"/Users/johnathansmith/laravel-code/social-media-registration/app/Mail/SocialRecordDeniedEmail.php",
+		"/Users/johnathansmith/Desktop/rww-event.html",
+		"/Users/johnathansmith/git/red-white-child/modules/module-rww_feature_date.php",
+		"/Users/johnathansmith/git/red-white-child/partials/feature_date_block.php",
+		"/Users/johnathansmith/Downloads/acf-export-2017-09-14.json",
+		"/Users/johnathansmith/git/red-white-child/save-the-date-landing-acf.json",
+		"/Users/johnathansmith/git/red-white-child/modules/module-feature_date.php",
+		"/Users/johnathansmith/git/college-parent/modules/module-mini_story.php",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/single-ncstate_email.php",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/templates/premium/brick.php",
+		"/Users/johnathansmith/Desktop/college-parent/modules/module-landing_header.php",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week02/area.html",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week02/onmouseout.html",
+		"/Users/johnathansmith/Downloads/bootstrap-datepicker-1.6.4-dist/css/bootstrap-datepicker3.standalone.css",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/templates/event/story_featured.php",
+		"/Users/johnathansmith/Downloads/bootstrap-datepicker-1.6.4-dist/css/bootstrap-datepicker.standalone.css",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/templates/digital_magazine/story_featured.php",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week03/unit03_lab/index.html",
+		"/Users/johnathansmith/git/freedm-child/includes/gravity_forms.php",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/week03/unit03_lab/server.js",
+		"/Users/johnathansmith/Google Drive/Masters/DBA130 - noSQL Databases/week01/JS_1/ex_3/index03.html",
+		"/Users/johnathansmith/Desktop/college-parent/acf-header.json",
+		"/Users/johnathansmith/sites/gravity/wp-config.php",
+		"/Users/johnathansmith/laravel-code/social-media-registration/app/Providers/BroadcastServiceProvider.php",
+		"/Users/johnathansmith/laravel-code/social-media-registration/config/app.php",
+		"/Users/johnathansmith/sites/windingcog/hero.php",
+		"/Users/johnathansmith/sites/windingcog/src/sass/_navbar.scss",
+		"/Users/johnathansmith/sites/windingcog/src/sass/_general.scss",
+		"/Users/johnathansmith/git/social/functions.php",
+		"/Users/johnathansmith/git/pcom-ugrad-child/functions.php",
+		"/Users/johnathansmith/git/geospatial-child/Geospatial.php",
+		"/Users/johnathansmith/Downloads/college-parent-3.1/acf-news-post.json",
+		"/Users/johnathansmith/Downloads/college-parent-3.1/scss/style.scss",
+		"/Users/johnathansmith/git/email-generator-wp-plugin/NcstateEmailGenerator-class.php",
+		"/Users/johnathansmith/sites/windingcog/index.php",
+		"/Users/johnathansmith/sites/windingcog/src/sass/_container.scss",
+		"/Users/johnathansmith/sites/windingcog/section2.php",
+		"/Users/johnathansmith/sites/windingcog/section1.php",
+		"/Users/johnathansmith/sites/windingcog/src/sass/vars.scss",
+		"/Users/johnathansmith/sites/windingcog/header.php",
+		"/Users/johnathansmith/sites/windingcog/src/sass/bulma/sass/utilities/variables.sass",
+		"/Users/johnathansmith/sites/windingcog/webpack.mix.js",
+		"/Users/johnathansmith/sites/windingcog/src/sass/windingcog.scss",
+		"/Users/johnathansmith/sites/windingcog/package.json",
+		"/Users/johnathansmith/sites/windingcog/src/js/windingcog.js",
+		"/Users/johnathansmith/sites/windingcog/modal.php",
+		"/Users/johnathansmith/sites/windingcog/src/sass/_buckets.scss",
+		"/Users/johnathansmith/sites/windingcog/gulpfile.js",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/WEEK1/unit01_lab_part1/hello.js",
+		"/Users/johnathansmith/Google Drive/Masters/CSC174 - Server Side JS/WEEK1/unit01_lab_part2/app.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 174.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "johnathansmith.com.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"single-per",
+				"partials/single/single-person.php"
+			],
+			[
+				"single-pers",
+				"partials/single/single-person.php"
+			],
+			[
+				"expertre",
+				"app/Http/Requests/ExpertRequest.php"
+			],
+			[
+				"expert.",
+				"app/Expert.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"expert.p",
+				"resources/views/admin/edit/expert.blade.php"
+			],
+			[
+				"admin.j",
+				"resources/assets/js/admin.js"
+			],
+			[
+				"create_ex",
+				"database/migrations/2016_06_29_192448_create_experts_table.php"
+			],
+			[
+				"expert.b",
+				"resources/views/admin/edit/expert.blade.php"
+			],
+			[
+				"expertrequest",
+				"app/Http/Requests/ExpertRequest.php"
+			],
+			[
+				"show",
+				"resources/views/experts/show.blade.php"
+			],
+			[
+				"expertsco",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"tagsc",
+				"app/Http/Controllers/TagsController.php"
+			],
+			[
+				"tagsco",
+				"app/Http/Controllers/TagsController.php"
+			],
+			[
+				"seo",
+				"config/seotools.php"
+			],
+			[
+				"expertsc",
+				"app/Http/Controllers/AdminExpertsController.php"
+			],
+			[
+				"exist",
+				"scss/_existing.scss"
+			],
+			[
+				"boots",
+				"resources/assets/js/bootstrap.js"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"home.b",
+				"resources/views/home.blade.php"
+			],
+			[
+				"home.",
+				"resources/views/home.blade.php"
+			],
+			[
+				"broadcasting.",
+				"config/broadcasting.php"
+			],
+			[
+				"usher.",
+				"config/pusher.php"
+			],
+			[
+				"pusher",
+				"config/pusher.php"
+			],
+			[
+				"web.",
+				"routes/web.php"
+			],
+			[
+				"experts.js",
+				"resources/assets/js/experts.js"
+			],
+			[
+				"menu.blade",
+				"resources/views/vendor/backpack/base/inc/menu.blade.php"
+			],
+			[
+				"menu.blade.",
+				"vendor/backpack/base/src/resources/views/inc/menu.blade.php"
+			],
+			[
+				"sidebar.blade",
+				"resources/views/vendor/backpack/base/inc/sidebar.blade.php"
+			],
+			[
+				"filesystems.p",
+				"config/filesystems.php"
+			],
+			[
+				"base.php",
+				"config/backpack/base.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"app.p",
+				"bootstrap/app.php"
+			],
+			[
+				"expert",
+				"app/Expert.php"
+			],
+			[
+				"search",
+				"app/Http/Controllers/SearchController.php"
+			],
+			[
+				"experts",
+				"app/Http/Controllers/ExpertisesController.php"
+			],
+			[
+				"about.",
+				"resources/views/about.blade.php"
+			],
+			[
+				"experts.j",
+				"resources/assets/js/experts.js"
+			],
+			[
+				"about",
+				"resources/views/about.blade.php"
+			],
+			[
+				"layout",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"show.bl",
+				"resources/views/experts/show.blade.php"
+			],
+			[
+				"searchcon",
+				"app/Http/Controllers/SearchController.php"
+			],
+			[
+				"searchc",
+				"app/Http/Controllers/SearchController.php"
+			],
+			[
+				"url.ph",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php"
+			],
+			[
+				"expertisec",
+				"app/Http/Controllers/ExpertisesController.php"
+			],
+			[
+				"subjectsco",
+				"app/Http/Controllers/SubjectsController.php"
+			],
+			[
+				"web.php",
+				"routes/web.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"authservice",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"appserv",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"broadcastser",
+				"vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php"
+			],
+			[
+				"eventser",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"authserv",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"routeserv",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"eventserve",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"subjectsc",
+				"app/Http/Controllers/SubjectsController.php"
+			],
+			[
+				"expertises",
+				"app/Http/Controllers/ExpertisesController.php"
+			],
+			[
+				"experti",
+				"app/Http/Controllers/ExpertisesController.php"
+			],
+			[
+				"subject",
+				"app/Subject.php"
+			],
+			[
+				"experstc",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"helper",
+				"app/helpers.php"
+			],
+			[
+				"index.bl",
+				"resources/views/expertise/index.blade.php"
+			],
+			[
+				"helpe",
+				"app/helpers.php"
+			],
+			[
+				"expe",
+				"app/Expert.php"
+			],
+			[
+				"expertisesc",
+				"app/Http/Controllers/ExpertisesController.php"
+			],
+			[
+				"create.bl",
+				"resources/views/subjects/create.blade.php"
+			],
+			[
+				"edit",
+				"resources/views/experts/edit.blade.php"
+			],
+			[
+				"expersco",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"fieldsco",
+				"app/Http/Controllers/FieldsController.php"
+			],
+			[
+				"expertscon",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"exp",
+				"app/Expert.php"
+			],
+			[
+				"exper",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"expertc",
+				"app/Http/Controllers/ExpertsController.php"
+			],
+			[
+				"subje",
+				"app/Subject.php"
+			],
+			[
+				"seeder",
+				"vendor/laravel/framework/src/Illuminate/Database/Seeder.php"
+			],
+			[
+				"tag",
+				"config/taggable.php"
+			],
+			[
+				"blade",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"layou",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"image_",
+				"database/migrations/2016_06_30_150348_create_expert_image_pivot_table.php"
+			],
+			[
+				"image",
+				"~/git/Experts/app/Image.php"
+			],
+			[
+				"",
+				"resources/views/experts/show.blade.php"
+			],
+			[
+				"lay",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"controll",
+				"app/Http/Controllers/Controller.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/sublime-projects/m.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 465.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

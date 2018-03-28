@@ -1,6 +1,9 @@
 var glob = require("glob")
 var path = require("path")
 
+const webpack = require('webpack')
+const WebpackBar = require('webpackbar')
+
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
 // The Nuxt routes are generate by Nuxt automatically based on the pages folder.
@@ -23,6 +26,7 @@ module.exports = {
   plugins: [
     // ssr: false to only include it on client-side
     { src: "~/plugins/buefy.js", ssr: false }
+    // new WebpackBar()
   ],
 
   head: {
