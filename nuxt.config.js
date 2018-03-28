@@ -71,7 +71,7 @@ module.exports = {
       // }
     ]
   },
-  loading: { color: "#c71c22" },
+  loading: false,
   generate: {
     routes: dynamicRoutes
   },
