@@ -18,19 +18,19 @@
           <nuxt-link to="/about" class="navbar-item">
             About
           </nuxt-link>
-          <nuxt-link to="/blog" class="navbar-item">
+          <nuxt-link to="/blog" class="hidden navbar-item">
             Blog
           </nuxt-link>
         </div>
         <div class="navbar-end">
           <a href="https://www.linkedin.com/in/johnathansmith/" class="navbar-item" target="_blank">
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"/>
           </a>
           <a href="https://github.com/jr-smith" class="navbar-item" target="_blank">
-            <i class="fab fa-github-square fa-2x"></i>
+            <i class="fab fa-github-square fa-2x"/>
           </a>
           <a href="https://twitter.com/heyitsjohnathan" class="navbar-item" target="_blank">
-            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"/>
           </a>
         </div>
       </div>
@@ -39,8 +39,7 @@
   </nav>
 </template>
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style lang="scss">
