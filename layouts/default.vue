@@ -15,9 +15,12 @@ export default {
 </script>
 
 <style style="scss">
-
-[v-cloak] > * { display:none; }
-[v-cloak]::before { content: "loading…"; }
+[v-cloak] > * {
+  display: none;
+}
+[v-cloak]::before {
+  content: "loading…";
+}
 
 .centered {
   margin: 0 auto;
