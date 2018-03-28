@@ -35,7 +35,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: "About Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle."
+      }
+    ]
+  }
+  }
 </script>
 
 <style lang="scss" scoped>

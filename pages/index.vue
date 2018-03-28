@@ -88,7 +88,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "this is the meta description too"
+        content: "I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational & NoSQL Databases."
       }
     ]
   },
