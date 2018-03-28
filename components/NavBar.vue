@@ -26,6 +26,9 @@
           <a href="https://www.linkedin.com/in/johnathansmith/" class="navbar-item" target="_blank">
             <i class="fab fa-linkedin fa-2x"></i>
           </a>
+          <a href="https://github.com/jr-smith" class="navbar-item" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
           <a href="https://twitter.com/heyitsjohnathan" class="navbar-item" target="_blank">
             <i class="fab fa-twitter-square fa-2x"></i>
           </a>

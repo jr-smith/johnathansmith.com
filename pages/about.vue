@@ -24,6 +24,7 @@
                 <li>Node</li>
                 <li>.NET Core</li>
                 <li>Native Script</li>
+                <li>Nuxt + SSR</li>
               </ul>
             </div>
           </div>
