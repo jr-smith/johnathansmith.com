@@ -79,6 +79,10 @@
 <script>
 export default {
   components: {},
+  props: {
+
+            container: HTMLElement,
+  },
   head: {
     title: "Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
     meta: [
