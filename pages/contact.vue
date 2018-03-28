@@ -18,12 +18,14 @@
 <script>
 export default {
   head: {
-    title: "Conact Johnathan R. Smith - Freelance Full Stack Web Developer in Raleigh, NC",
+    title:
+      "Conact Johnathan R. Smith - Freelance Full Stack Web Developer in Raleigh, NC",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Contact me about work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, or both relational & NoSQL Databases."
+        content:
+          "Contact me about work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, or both relational & NoSQL Databases."
       }
     ]
   }

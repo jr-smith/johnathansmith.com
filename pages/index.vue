@@ -62,7 +62,7 @@
 
 
           <div class="field">
-            <div netlify-recaptcha></div>
+            <div netlify-recaptcha/>
           </div>
           
 
@@ -93,7 +93,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational & NoSQL Databases."
+        content:
+          "I work with PHP + Laravel, C# + ASP.NET, JavaScript, Vue, Node, html/css, and both relational & NoSQL Databases."
       }
     ]
   },

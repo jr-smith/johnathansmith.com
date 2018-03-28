@@ -23,7 +23,10 @@ module.exports = {
   markdownit: {
     injected: true
   },
-  plugins: [{ src: "~/plugins/buefy.js", ssr: true }],
+  plugins: [
+    { src: "~/plugins/buefy.js", ssr: true },
+    { src: "~plugins/ga.js", ssr: false }
+  ],
   head: {
     title: "Johnathan Smith",
     meta: [

@@ -42,11 +42,12 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle."
+        content:
+          "Johnathan lives in Raleigh, NC with his beautiful, amazing wife Sarah and their adorable daughter Kristabelle."
       }
     ]
   }
-  }
+}
 </script>
 
 <style lang="scss" scoped>

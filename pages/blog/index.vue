@@ -34,7 +34,8 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Tutorials, posts, and more about all aspects of web development."
+          content:
+            "Tutorials, posts, and more about all aspects of web development."
         }
       ]
     }
