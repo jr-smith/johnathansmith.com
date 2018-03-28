@@ -1,12 +1,7 @@
 var glob = require("glob")
 var path = require("path")
 
-const webpack = require('webpack')
-const WebpackBar = require('webpackbar')
-
-
-global.HTMLElement = typeof window === 'undefined' ? Object : window.HTMLElement
-
+global.HTMLElement = typeof window === "undefined" ? Object : window.HTMLElement
 
 // Enhance Nuxt's generate process by gathering all content files from Netifly CMS
 // automatically and match it to the path of your Nuxt routes.
@@ -27,10 +22,7 @@ module.exports = {
   markdownit: {
     injected: true
   },
-  plugins: [
-    { src: "~/plugins/buefy.js", ssr: true }
-    // new WebpackBar()
-  ],
+  plugins: [{ src: "~/plugins/buefy.js", ssr: true }],
   head: {
     title: "Johnathan Smith",
     meta: [
@@ -45,8 +37,8 @@ module.exports = {
       { name: "theme-color", content: "#ffffff" }
     ],
     script: [
-      {src: "https://use.fontawesome.com/releases/v5.0.8/js/brands.js"},
-      {src: "https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"}
+      { src: "https://use.fontawesome.com/releases/v5.0.8/js/brands.js" },
+      { src: "https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" }
     ],
     link: [
       {
@@ -87,7 +79,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['buefy'] 
+    vendor: ["buefy"]
     /*
     ** Run ESLint on save
   
@@ -106,7 +98,10 @@ module.exports = {
     }
     */
   },
-  css: [{ src: "@/assets/bulma-theme.scss", lang: "sass" }]
+  css: [
+    { src: "@/assets/bulma-theme.scss", lang: "sass" },
+    { src: "@/assets/global.scss", lang: "sass" }
+  ]
 }
 
 /**

@@ -80,8 +80,7 @@
 export default {
   components: {},
   props: {
-
-            container: HTMLElement,
+    container: HTMLElement
   },
   head: {
     title: "Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
