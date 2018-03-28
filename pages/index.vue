@@ -61,6 +61,11 @@
           </b-field>
 
 
+          <div class="field">
+            <div netlify-recaptcha></div>
+          </div>
+          
+
           <b-field>
             <p class="control">
               <button class="button is-primary">
