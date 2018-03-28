@@ -30,13 +30,5 @@ module.exports = {
     "vue/max-attributes-per-line": "off",
     "vue/space-before-function-paren": "off",
     "space-before-function-paren": 0,
-    "space-before-function-paren": [
-      "error",
-      {
-        "anonymous": "always",
-        "named": "always",
-        "asyncArrow": "always"
-      }
-    ],
     "prettier/prettier": ["error", { "semi": false }]}
 }
