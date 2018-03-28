@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div v-cloak>
     <nav-bar />
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 
@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style style="scss">
+
+[v-cloak] > * { display:none; }
+[v-cloak]::before { content: "loading…"; }
+
 .centered {
   margin: 0 auto;
 }
