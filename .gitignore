@@ -88,3 +88,5 @@ static/admin/*.bundle.*
 yarn-error.log
 /old
 *.sublime-project
+/static/sitemap.xml
+/sitemap.xml

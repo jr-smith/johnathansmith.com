@@ -23,6 +23,12 @@ module.exports = {
   markdownit: {
     injected: true
   },
+  transition: {
+    afterLeave(_) {
+      document.getElementById('burger').classList.remove('is-active')
+      document.getElementById('main-menu').classList.remove('is-active')
+    }
+  },
   plugins: [
     { src: "~/plugins/buefy.js", ssr: true },
     { src: "~plugins/ga.js", ssr: false }

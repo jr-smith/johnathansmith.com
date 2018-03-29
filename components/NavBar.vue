@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/" ><strong>Johnathan Smith</strong></nuxt-link>
-        <div class="navbar-burger" data-target="main-menu">
+        <div id="burger" class="navbar-burger" data-target="main-menu">
           <span/>
           <span/>
           <span/>
