@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.1.1",
-    "nuxt": "^1.0.0"
+    "nuxt": "npm:nuxt-edge"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.0.0-beta.42",
