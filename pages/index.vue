@@ -3,9 +3,9 @@
     <div class="hero-body">
       <div class="container">
         <div id="intro" class="has-text-centered intro">
-          <img src="/johnathan.png" class="profile-photo" alt="Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC" >
+          <img src="/johnathan.png" class="profile-photo" alt="Johnathan Smith - Full Stack Web Developer in Raleigh, NC" >
           <h1 class="title is-size-1">
-            Johnathan R. Smith
+            Johnathan Smith
           </h1>
           <h2 class="subtitle is-size-2 white">
             Full Stack Web Developer in Raleigh, NC
@@ -88,7 +88,7 @@ export default {
     container: HTMLElement
   },
   head: {
-    title: "Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
+    title: "Johnathan Smith - Full Stack Web Developer in Raleigh, NC",
     meta: [
       {
         hid: "description",

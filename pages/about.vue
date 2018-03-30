@@ -37,7 +37,7 @@
 <script>
 export default {
   head: {
-    title: "About Johnathan R. Smith - Full Stack Web Developer in Raleigh, NC",
+    title: "About Johnathan Smith - Full Stack Web Developer in Raleigh, NC",
     meta: [
       {
         hid: "description",

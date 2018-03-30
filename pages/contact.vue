@@ -19,7 +19,7 @@
 export default {
   head: {
     title:
-      "Conact Johnathan R. Smith - Freelance Full Stack Web Developer in Raleigh, NC",
+      "Conact Johnathan Smith - Freelance Full Stack Web Developer in Raleigh, NC",
     meta: [
       {
         hid: "description",
