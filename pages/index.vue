@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <div id="intro" class="has-text-centered intro">
-          <img src="/johnathan.png" class="profile-photo" alt="Johnathan Smith - Full Stack Web Developer in Raleigh, NC" >
+          <img src="/johnathan.jpg" class="profile-photo" alt="Johnathan Smith - Full Stack Web Developer in Raleigh, NC" >
           <h1 class="title is-size-1">
             Johnathan Smith
           </h1>
