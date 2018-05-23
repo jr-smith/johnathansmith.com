@@ -19,16 +19,19 @@
       <div class="container">
         <h4 class="title is-size-3 has-text-centered">Some of my clients</h4>
         <div class="columns has-text-centered">
-          <div class="column is-one-quarter">
+          <div class="column is-one-third">
             <img src="/images/uploads/ncstate.png" alt="nc state" >
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-one-third">
+            <img src="/images/uploads/wake-tech-community-college.png" alt=" wake tech community college" >
+          </div>
+          <div class="column is-one-third">
             <img src="/images/uploads/freedm.png" alt="freedm systems center" >
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-one-third">
             <img src="/images/uploads/popefoundation.png" alt="pope foundation" >
           </div>
-          <div class="column is-one-quarter">
+          <div class="column is-one-third">
             <img src="/images/uploads/raleighmold.png" alt="raleigh mold" >
           </div>
         </div>
