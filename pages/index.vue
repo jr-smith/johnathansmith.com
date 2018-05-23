@@ -18,7 +18,7 @@
     <section id="clients" class="hero section is-info">
       <div class="container">
         <h4 class="title is-size-3 has-text-centered">Some of my clients</h4>
-        <div class="columns has-text-centered">
+        <div class="columns has-text-centered is-multiline">
           <div class="column is-one-third">
             <img src="/images/uploads/ncstate.png" alt="nc state" >
           </div>
