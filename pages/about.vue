@@ -21,10 +21,8 @@
               <p>Some coding technologies that currently pique his interest are:</p>
               <ul class="list-arrows">
                 <li>Python &amp; Django</li>
+                <li>Go</li>
                 <li>GraphQL</li>
-                <li>Node</li>
-                <li>.NET Core</li>
-                <li>Native Script</li>
               </ul>
             </div>
           </div>
