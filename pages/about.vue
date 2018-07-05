@@ -20,9 +20,8 @@
               <p>He enjoys family time, pinball, hiking, trying new coffee blends, and engineering awesome web applications.</p>
               <p>Some coding technologies that currently pique his interest are:</p>
               <ul class="list-arrows">
-                <li>Python &amp; Django</li>
                 <li>Go</li>
-                <li>GraphQL</li>
+                <li>Serverless &amp; AWS</li>
               </ul>
             </div>
           </div>
