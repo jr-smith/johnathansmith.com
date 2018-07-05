@@ -29,9 +29,6 @@
           <a href="https://github.com/jr-smith" class="navbar-item" target="_blank">
             <i class="fab fa-github-square fa-2x"/>
           </a>
-          <a href="https://twitter.com/heyitsjohnathan" class="navbar-item" target="_blank">
-            <i class="fab fa-twitter-square fa-2x"/>
-          </a>
         </div>
       </div>
 
