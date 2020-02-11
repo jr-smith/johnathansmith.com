@@ -1,0 +1,43 @@
+<article class="entry-single">
+    <div class="cf">
+        {{ if .Params.cover }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-cover-container">
+                <img alt="{{ .Title }}" class="entry-cover-image"
+                     src="{{ .Params.cover }}"/>
+            </a>
+        {{ end }}
+        {{ if and (.Params.image) (not .Params.cover) }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-cover-container">
+                <img alt="{{ .Title }}" class="entry-cover-image"
+                     src="{{ .Params.image }}"/>
+            </a>
+        {{ end }}
+        <header class="entry-header">
+            <h3 class="entry-title"><a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-link">{{ .Title }}</a>
+            </h3>
+            {{ if .Params.subtitle }}<h4 class="entry-subtitle"><small>{{ .Params.subtitle }}</small></h4>{{ end }}
+        </header>
+
+        {{ $summary := "" }}
+        {{ if .Params.summary  }}
+            {{ $summary = .Params.summary }}
+        {{ else }}
+            {{ $summary = .Summary }}
+        {{ end }}
+        <p class="entry-summary">{{ $summary | plainify | htmlUnescape }}</p>
+
+        <div class="read-more-container">
+            <a href="{{ .Permalink }}" title="{{ .Title }}" class="read-more"></a>
+        </div>
+    </div>
+
+    <footer class="entry-footer">
+
+        <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span>{{ .ReadingTime }} min
+            read
+        </p>
+
+        {{ partial "tags.html" . }}
+
+    </footer>
+</article>

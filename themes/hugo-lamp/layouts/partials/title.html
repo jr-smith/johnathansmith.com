@@ -1,0 +1,10 @@
+{{ $titles := slice .Title .Site.Params.seotitle .Site.Title "" }}
+{{ $title := "" }}
+{{ range $title_key, $title_value := $titles }}
+    {{ if $title_value }}
+        {{ if not $title  }}
+            {{ $title = $title_value }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ $title | plainify }}{{ if .Params.subtitle }} | {{ .Params.subtitle }}{{ end }}

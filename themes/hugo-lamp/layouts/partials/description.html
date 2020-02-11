@@ -1,0 +1,10 @@
+{{ $descriptions := slice .Params.meta_description .Summary .Description .Site.Params.Description  "" }}
+{{ $description := "" }}
+{{ range $elem_key, $elem_val := $descriptions }}
+    {{ if $elem_val }}
+        {{ if not $description  }}
+            {{ $description = $elem_val }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ $description }}

@@ -1,0 +1,13 @@
+#author-bio {
+  margin-bottom: $space-normal;
+  .author-photo {
+    border-radius: 100%;
+    max-width: 100px;
+    display: block;
+    @media (min-width: $tablet) {
+      float: left;
+      margin-right: $space-large;
+    }
+  }
+
+}

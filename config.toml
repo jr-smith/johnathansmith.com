@@ -1,0 +1,50 @@
+baseURL = "https://johnathansmith.com/"
+languageCode = "en-us"
+title = "Johnathan Smith - Full Stack Laravel Developer & Consultant"
+theme = "hugo-lamp"
+googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
+
+[permalinks]
+    originals = "/originals/:title/"
+    pages = "/:title/"
+[params]
+  titleName = "Johnathan Smith"
+  subtitle = "Full Stack Laravel Developer + Consultant"
+  portfolio = "About Me →"
+  author = "Johnathan Smith"
+  description = "Laravel, PHP, Vue, Javascript, and More"
+  paginate = 25
+
+  # SEO configs
+  seotitle = "Johnathan Smith - Full Stack Laravel Developer & Consultant"               # Bing Webmaster
+
+  # Social networks
+  github = "TechNoirBreakfastClub"
+  linkedin = "johnathansmith"
+  twitter = "johnathan2525"
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "About Me"
+  weight = 3
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "Resume"
+  weight = 4
+  identifier = "resume"
+  url = "/resume/"
+#[[menu.main]]
+#  name = "Search"
+#  weight = 5
+#  identifier = "search"
+#  url = "/search/"

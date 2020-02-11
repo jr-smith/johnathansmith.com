@@ -1,0 +1,25 @@
+<footer class="footer">
+  {{ partial "tags.html" . }}
+  <p>Copyright © {{ if eq now.Year 2019 }}2019{{ else }}2019-{{ now.Year }}{{ end }}</p>
+  {{ partial "social.html" . }}
+</footer>
+
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+<script>
+// var navbar = document.getElementById('nav');
+document.getElementById('menu-toggle').addEventListener("click", function(){
+  document.documentElement.classList.toggle('menu-open');
+});
+</script>

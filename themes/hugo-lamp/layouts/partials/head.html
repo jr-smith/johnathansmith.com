@@ -1,0 +1,49 @@
+<!-- Twitter Card -->
+<meta property="og:image" content="{{ .Params.featured | default "/uploads/johnathansmith.jpg" | absURL }}"/>
+<meta property="og:url" content="{{ .Permalink }}"/>
+
+<!-- Page Author & Description -->
+<meta name="author"
+      content="{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}"/>
+<meta name="description" content="{{ partial "description.html" . }}">
+
+{{ partial "twitter.html" . }}
+
+<!-- Permalink & RSSlink -->
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternative" href="/index.xml" title="{{ .Site.Title }}" type="application/atom+xml">
+
+<!-- Rending Prefs -->
+<meta name="renderer" content="webkit"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+
+<!-- SEO Prefs -->
+<meta name="robots" content="index,follow"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+{{/*{{ if isset .Site.Params "googlesiteverification" }}*/}}
+{{/*    <meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}"/>*/}}
+{{/*{{ end }}*/}}
+{{/*{{ if isset .Site.Params "msvalidate" }}*/}}
+{{/*    <meta name="msvalidate.01" content="{{ .Site.Params.msValidate }}"/>*/}}
+{{/*{{ end }}*/}}
+
+<!--Google fonts-->
+{{/*<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400" rel="stylesheet">*/}}
+
+{{ $style := resources.Get "sass/style.scss" | toCSS | postCSS | minify | fingerprint }}
+<link href="{{ $style.Permalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}" />
+<!-- Favicon and Touch icons -->
+<link rel="icon" href="{{ "/uploads/johnathansmith.jpg" | absURL }}"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" sizes="180x180"
+      href="{{ "/uploads/apple-touch-icon.png" | absURL }}">
+
+<!--Manifest setup-->
+<link rel="manifest" href="/manifest.json"/>
+<meta name="theme-color" content="#20242b"/>
+
+<!--Netlify CMS-->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+{{ partial "prism.html" .}}

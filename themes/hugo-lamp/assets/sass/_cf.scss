@@ -1,0 +1,8 @@
+.cf {
+  overflow: auto;
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}

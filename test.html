@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Test</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">-->
+
+<style>
+
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    body {
+        line-height:1;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000;
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+
+    :root {
+        --main-color: #00ff00;
+        --header-color: #111;
+        --nav-color: #003b00;
+    }
+
+    body {
+
+    }
+
+    #top {
+        background-color: var(--main-color);
+        /*color: var(--header-color);*/
+        display: flex;
+        align-items: center;
+        height: 60px;
+        color: #005a00;
+        padding: 0 20px;
+
+    }
+
+    #nav {
+        background-color: var(--nav-color);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    #nav a {
+        color: var(--main-color);
+        font-family: 'PT Sans', monospace;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    #nav > ul {
+        display: flex;
+    }
+
+
+    #name {
+        font-size: 32px;
+    }
+
+    #main {
+        margin: 50px auto;
+        width: 700px;
+        max-width: 90%;
+        padding: 0;
+        position: relative;
+    }
+
+    .content-container a, .link-highlight {
+        color: #111;
+        padding: 0;
+        text-decoration: none;
+        background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100% );
+        transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
+        background-size: 100% 200%;
+        background-position: 0 0;
+    }
+
+    #main a:hover, #main a:active, #main a:focus, .link-highlight:active, .link-highlight:hover, .link-highlight:focus {
+        padding: 2px 0 4px 0;
+        background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100% );
+        background-position: 0 100%;
+    }
+
+    .author {
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        position: absolute;
+        width: 250px;
+        width: calc(((100vw - 700px)/2) - 140px);
+        top: 12px;
+        left: -70px;
+        transform: translate(-100%, 0);
+        background: #fffdfd;
+        padding: 40px 0 45px 0;
+        border-top: 70px solid #f1f3f5;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+    .author a {
+        text-decoration: none;
+        color: var(--header-color);
+    }
+    .author .avatar {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-size: cover;
+        margin-right: 10px;
+        flex: 0 0 auto;
+        position: absolute;
+        top: 33px;
+        left: 50%;
+        transform: translate(-50%,-100%);
+        border: 3px solid #fffdfd;
+        background-color: #ddd;
+
+    }
+    .author .name {
+
+        font-size: 18px;
+        font-weight: 600;
+        max-width: 80%;
+    }
+    .author p {
+
+        font-size: 16px;
+        margin: 10px 0;
+        line-height: 1.3;
+        font-weight: normal;
+    }
+
+    .content-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 15px;
+    }
+    .content-meta .date {
+
+        font-size: 14px;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    .content-title {
+        font-size: 38px;
+        /*font-family: 'IBM Plex Sans', sans-serif;*/
+        font-weight: bold;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+
+    .content {
+        position: relative;
+    }
+
+    .content p {
+        position: relative;
+        font-size: 20px;
+        margin: 35px 0;
+        line-height: 1.6;
+    }
+
+    .content blockquote {
+
+        border-left: 10px solid var(--main-color);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+        padding-left: 20px;
+        line-height: 1.4;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    #name-sub {
+        margin-left: 2rem;
+    }
+
+
+</style>
+</head>
+<body>
+<div>
+    <header id="header">
+        <div id="top">
+            <h5 id="name">Johnathan Smith</h5>
+            <h6 id="name-sub">Full Stack Laravel Developer + Consultant</h6>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About Me</a>
+                </li>
+                <li>
+                    <a href="/resume">Resum&#233;</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <aside class="author">
+            <div class="avatar" style="background-image: url('https://d33wubrfki0l68.cloudfront.net/4269ec596d024821e0abf1e60d8db679bf5e5ee0/0d16c/uploads/johnathansmith.jpg')"></div>
+            <div class="name">
+                <p class="text-center"><strong><a href="https://twitter.com/@johnathan2525">Johnathan Smith</a></strong></p>
+                <p class="text-center">@johnathan2525</p>
+                <p>I'm a web developer that specializes in Laravel, PHP, Vue, Javascript and more. I work 100% remotely from my home office near Raleigh, NC. <a href="/about" class="link-highlight" >Come get to know me better!</a></p>
+                <div class="links">
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/getlionel"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </aside>
+        <article class="content-container">
+            <h3 class="content-title">
+                Stop deploying Laravel manually, steal this Docker configuration instead
+            </h3>
+            <aside class="content-meta">
+                <time class="date">March 2nd 2018</time>
+            </aside>
+            <main class="content">
+                <p>here is some stuff <a href="">that is cool</a>.</p>
+                <p>Coding and testing put aside, we provision servers for them, configure their database, search engine, cache engine, workers, crons, queues, configure their web server, get them SSL certificates, update DNS for them and finally build and deploy them.<br>And we do this on a daily basis so hopefully we can set up this easily enough so that we can re-deploy a few times a day without too much thinking!</p>
+                <p><strong>Why Docker?<br></strong><a href="https://hackernoon.com/tagged/docker" target="_blank">Docker</a> will be our swiss army knife for this article. It will help us with provisioning our servers, configuring (as-code) and orchestrating our services:</p>
+                <blockquote name="29fa" id="29fa" class="graf graf--blockquote graf-after--p"><strong>Server provisioning</strong> is a set of actions to prepare a server with appropriate systems, data and software, and make it ready for network operation</blockquote>
+                <blockquote name="a780" id="a780" class="graf graf--blockquote graf-after--blockquote"><strong>Configuration-as-code</strong> is a DevOps practice that promotes storing of application configuration as code within source code repository</blockquote>
+                <p>yo</p>
+            </main>
+        </article>
+    </div>
+</div>
+</body>
+</html>

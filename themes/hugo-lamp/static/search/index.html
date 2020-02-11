@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search | Johnathan Smith</title>
+
+  <link rel="stylesheet" href="search.css">
+
+  <!-- Favicon and Touch icons -->
+  <link rel="icon" href="{{ "/uploads/johnathansmith.jpg" | absURL }}" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ "/uploads/apple-touch-icon.png" | absURL }}">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="display-4 text-center mt-5 mb-5">
+          <img class="logo" src="/uploads/johnathansmith.jpg">
+        </div>
+        <p>Looking for something? Search to check if I've written about it.</p>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control form-control-lg" id="search" placeholder="Enter keyword..." required>
+          </div>
+        </form>
+        <div>
+          <ul id="results"></ul>
+
+          <br /><br />
+          <a href="/" class="btn btn-lg btn-secondary">← Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/lunr/lunr.min.js"></script>
+  <script src="search.js"></script>
+</body>
+
+</html>

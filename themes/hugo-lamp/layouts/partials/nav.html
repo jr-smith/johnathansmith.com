@@ -1,0 +1,11 @@
+<nav class="menu" id="nav">
+    <ul class="menu-list">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ $active := eq $currentPage.RelPermalink .URL }}
+            <li class="menu-item {{if $active }} is-active {{ end }}">
+                <a class="sidebar-link" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</nav>

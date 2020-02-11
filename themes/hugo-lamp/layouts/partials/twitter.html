@@ -1,0 +1,27 @@
+
+<meta name="twitter:site" content="@{{ .Site.Params.twitter | default "Johnathan Smith" }}"/>
+<meta name="twitter:description" content="{{ partial "description.html" . }}"/>
+
+<meta name="twitter:title"
+      content="{{ partial "title.html" . }}"/>
+
+{{ if eq .Type "post" }}
+
+    <meta property="og:type" content="article"/>
+
+
+    {{ if isset .Params "cover" }}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="{{ .Params.cover | absURL }}"/>
+    {{ else }}
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:image" content="{{ .Params.featured | default "/uploads/johnathansmith.jpg" | absURL }}"/>
+    {{ end }}
+
+{{ else }}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image" content="{{ .Params.featured | default "/uploads/johnathansmith.jpg" | absURL }}"/>
+
+{{ end }}
