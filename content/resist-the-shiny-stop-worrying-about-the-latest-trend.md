@@ -11,6 +11,7 @@ meta_description: >-
   popular. Stay informed, but don't let it conform you.
 type: post
 cover: /uploads/shiny.gif
+featured: /uploads/shiny.gif
 ---
 We see it all the time, the coolest, shiniest programming language, framework, tool, GUI, font, color scheme, etc. I'm going to tell you something that few seem to realize...
 
