@@ -43,7 +43,7 @@ $response = XttpPending::new()
 ->setMethod(// method)
 ->withHeaders(['X-Foo' => 'Bar'])
 ->asJson()
-->process();
+->send();
 ```
 
 It will return a `XttpResponse` class that allows you to retrieve data like: headers,
