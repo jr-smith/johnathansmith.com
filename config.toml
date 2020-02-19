@@ -43,8 +43,8 @@ googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
   weight = 4
   identifier = "resume"
   url = "/resume/"
-#[[menu.main]]
-#  name = "Search"
-#  weight = 5
-#  identifier = "search"
-#  url = "/search/"
+[[menu.main]]
+  name = "xttp"
+  weight = 5
+  identifier = "xttp"
+  url = "/xttp/"
