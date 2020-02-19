@@ -14,7 +14,6 @@ Xttp was inspired by Adam Wathan's [zttp](https://github.com/kitetail/zttp). A s
 
 Regular use is simple:
 ```php
-<?php
 use JohnathanSmith\Xttp\Xttp;
 
 /** @var \JohnathanSmith\Xttp\XttpResponseWrapper $xttpResponse */
@@ -43,7 +42,6 @@ create a _longer_ version from above with an large amount of granular detail. Yo
 - Guzzle Client Construction
 
 ```php
-<?php
 use JohnathanSmith\Xttp\XttpPending;
 
 $response = XttpPending::new()

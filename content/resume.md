@@ -9,7 +9,6 @@ meta_description: Resume for web developer Johnathan Smith. He specializes in La
 
 Self-motivated, detail oriented Software Engineer with extensive experience in multiple languages and stacks including: PHP, Laravel, JavaScript/Vue, Relational and NoSQL databases, HTML, CSS and more. Exhibits superior communication skills and the ability to collaborate across departments. Excels at engineering modular, testable, object-oriented applications for assorted business specifications. Highly proficient at turning concepts into critical services and applications.
 
-
 ### CORE COMPETENCIES
 
 <table align="left">
@@ -38,7 +37,7 @@ Self-motivated, detail oriented Software Engineer with extensive experience in m
 
 ## PROFESSIONAL EXPERIENCE
 
-Bisnow (2018 - Present)<br />*Software Engineer*
+Bisnow (2018 - Present)<br /> *Software Engineer*
 
 Working 100% remotely to create vital, enterprise-level web applications that serve tens of thousands of customers daily
 and generates millions of dollars in revenue. Developed front-end, CMS, and APIs that is used daily by a staff of nearly 100. Engineered products and sites earn several millions of dollars in sales and sponsorship.
@@ -50,7 +49,7 @@ and generates millions of dollars in revenue. Developed front-end, CMS, and APIs
 - Generated unit tests to validate proper functioning of apps for backend with PHPUnit and front end with Mocha/Chai and Jest.
 - Measures health and performance of custom-made applications.
 
-Wake Tech Community College (2018)<br />*Applications Developer III* 
+Wake Tech Community College (2018)<br /> *Applications Developer III* 
 
 In charge of rewriting and maintaining the Workforce Continuing Education applications which serves thousands of users and requests daily.
 
@@ -59,7 +58,7 @@ In charge of rewriting and maintaining the Workforce Continuing Education applic
 - Utilized Vue.js to inject interactivity for front-end facing apps alongside an SPA/API.
 
 
-NC State University (2015 - 2018)<br />*Web & Mobile Application Developer*
+NC State University (2015 - 2018)<br /> *Web & Mobile Application Developer*
 
 Collaborated across departments to produce websites and web apps for college departments and national research centers. Employed both frontend and backend development to create professional-quality sites and applications that function flawlessly, increase web presence, and boost brand awareness.
 
@@ -68,10 +67,6 @@ Collaborated across departments to produce websites and web apps for college dep
 - Collaborates with clients and professionals to turn nebulous ideas into full-fledged products and
 applications.
 - Served as the point of contact for several organizations for ongoing support.
-
-Civitas Institute (2008 - 2015)<br />*Full Stack Web Developer*
-
-Directed and completed large-scale web design and production using jQuery, JavaScript, PHP, WordPress, and MySQL to enhance user experience, increase conversion rates, and boost viewership.
 
 ### EDUCATION
 
