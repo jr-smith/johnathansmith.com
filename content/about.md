@@ -19,5 +19,3 @@ Some other technologies that currently pique his interest are:
 - Node
 - Python
 - Asynchronous and parallel processing
-- IoT
-- .Net Core
