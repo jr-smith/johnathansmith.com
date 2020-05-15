@@ -4,6 +4,8 @@ title = "Johnathan Smith - Full Stack Laravel Developer & Consultant"
 theme = "hugo-lamp"
 googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
 
+[markup.goldmark.renderer]
+    unsafe= true
 [permalinks]
     originals = "/originals/:title/"
     pages = "/:title/"

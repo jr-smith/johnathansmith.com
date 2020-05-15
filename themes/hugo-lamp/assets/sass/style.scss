@@ -1268,3 +1268,16 @@ label,
 
 @import "_content";
 
+.clearfix {
+
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+}
+
+body {
+  background-color: initial !important;
+}
