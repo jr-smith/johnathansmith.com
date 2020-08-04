@@ -40,7 +40,7 @@ class Subscription {
     }
 }
 
-class EmailSubscription {
+class EmailSubscription extends Subscription {
     protected $title = 'email';
     protected $fields = [
         'body',
