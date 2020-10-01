@@ -17,7 +17,7 @@ We see it all the time, the coolest, shiniest programming language, framework, t
 
 ### It probably doesn't matter!
 
-Now, we should be kept abreast of the latest tech, but most of this is passing and fading. Just think, had you started with C back in the 70s, you would still be programming in it and loving it just fine! However, now we \[insert infinite number here]. I used to be on twitter all the time, trying to find the latest and greatest, but eventually realized it was fruitless for a few reasons.
+Now, we should be kept abreast of the latest tech, but most of this is passing and fading. Just think, had you started with C back in the 70s, you would still be programming in it and loving it just fine! However, now we have countless languages and frameworks. I used to be on twitter all the time, trying to find the latest and greatest, but eventually realized it was fruitless for a few reasons...
 
 #### Early adoption is riddled with bugs.
 
